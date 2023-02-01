@@ -10,31 +10,29 @@ html {
     margin: 0%;
     background-color: whitesmoke;
   }
-header {
+  header {
     background-color: #191b1a;
+    overflow: hidden;
     width: 100%;
-  }
-  nav a {
-    font-size: 2rem;
-    font-weight: 400;
-    text-decoration: none;
-    color: whitesmoke;
+    height: max-content;
+    position: relative;
   }
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 2% ;
+    background-color: #191b1a;
+    position: relative;
   }
-
-  .navbar #ExLinks {
-    
-    margin: 40px 20px;
+  .navbar a {
+    padding: 3%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: block;
   }
   .navbar #ExLinks a:hover  { 
     color: #FE9C00;
 
   }
-  .navbar #menu {
+  .navbar #menu, #ExLinks {
     display: none;
   }
   .navbar a.icon {
@@ -44,6 +42,13 @@ header {
     right: 0;
     top: 0;
     padding: 3% 5%;
-    margin: 50px 15px;
+    margin: 30px 15px;
     
   }
+  .navbar a:hover{background-color: #e14761;
+  color: black;} 
+.navbar a:active {
+  background-color: #e14761;
+  color: black;
+}
+
