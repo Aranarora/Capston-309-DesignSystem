@@ -73,4 +73,27 @@ footer {
   .footer-row-second-col-links, .footer-row-second-col-connect {
     margin: 50px 0px;
   }
-  @media only screen and (min-width: 1024px) {}
+  @media only screen and (min-width: 1024px) {
+    #menu{
+        display: contents;
+        margin: 0;
+      padding: 0;
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        background-color: #191b1a;
+        z-index: 1;
+      top: 0;
+      left: 0;
+        padding-top: 20px;
+      }
+      #menu a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: whitesmoke;
+        display: block;
+      }
+      .navbar a.icon {display: none;}
+
+  }
