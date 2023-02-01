@@ -22,7 +22,7 @@ html {
     position: relative;
   }
   .navbar a {
-    padding: 3%;
+    padding: 10%;
     color: whitesmoke;
     text-decoration: none;
     font-size: 1.6rem;
@@ -74,6 +74,23 @@ footer {
     margin: 50px 0px;
   }
   @media only screen and (min-width: 1024px) {
+.topNav{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+    #topNavLogo {
+        display: none;
+      }
+      .topNav  #ExLink {
+        margin: 50px 20px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      #menuExLink{
+        display: none;
+    }
+
     .sideNav{
         margin: 0;
       padding: 0;
@@ -98,7 +115,8 @@ footer {
         display: block;
       }
       #menu a:hover {
-        color: #FE9C00;
+        background-color: #FE9C00;
+        color: #191b1a;
       }
      .sideNav a.icon {display: none;}
 
