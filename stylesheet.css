@@ -32,7 +32,7 @@ html {
     color: #FE9C00;
 
   }
-  .navbar #menu, #ExLinks {
+  .navbar #menu, #ExLink, #menuLogo {
     display: none;
   }
   .navbar a.icon {
