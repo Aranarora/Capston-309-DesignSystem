@@ -34,14 +34,16 @@ header {
     color: #FE9C00;
 
   }
-  .sidenav #menu ul {
-    padding: 0;
-    list-style-type: none;
+  .navbar #menu {
+    display: none;
   }
-  .container {
-    margin-top: 50px; 
-    Display: flex;
-    justify-content: center;
-    align-items: center;
+  .navbar a.icon {
+    background: #191b1a;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3% 5%;
+    margin: 50px 15px;
+    
   }
- 
