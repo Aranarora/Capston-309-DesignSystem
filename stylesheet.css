@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* all general part for the page */
+  body {
+    margin: 0%;
+    background-color: whitesmoke;
+  }
+header {
+    background-color: #191b1a;
+    width: 100%;
+  }
+  nav a {
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: whitesmoke;
+  }
