@@ -20,3 +20,17 @@ header {
     text-decoration: none;
     color: whitesmoke;
   }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 2% ;
+  }
+
+  .navbar #ExLinks {
+    
+    margin: 40px 20px;
+  }
+  .navbar #ExLinks a:hover  { 
+    color: #FE9C00;
+
+  }
