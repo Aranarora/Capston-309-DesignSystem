@@ -15,7 +15,7 @@ html {
     overflow: hidden;
     width: 100%;
     height: max-content;
-    position: fixed;
+    position: relative;
   }
   .navbar {
     background-color: #191b1a;
@@ -51,4 +51,10 @@ html {
   background-color: #FE9C00;
   color: black;
 }
-
+footer {
+    clear: both;
+    width: 100%;
+    overflow: auto;
+    background-color: #191b1a;
+    text-align: center;
+  }
