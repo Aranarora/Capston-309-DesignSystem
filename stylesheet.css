@@ -119,6 +119,10 @@ footer {
         color: #191b1a;
       }
      .sideNav a.icon {display: none;}
+     main{
+        margin-left: 170px;
+        width: calc(100% - 170px);
+     }
 
      footer {
         margin-left: 160px;
@@ -126,7 +130,20 @@ footer {
     width: calc(100% - 160px);
     overflow: auto;
     background-color: #191b1a;
-
      }
+     .footer-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .footer-row-first-col-logo{
+        flex-grow: 0;
+      }
+      .footer-row-second-col-links{
+        flex-grow: 2;
+      }
+      .footer-row-second-col-connect{
+        flex-grow: 2;
+      }
 
   }
