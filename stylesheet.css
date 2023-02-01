@@ -120,4 +120,13 @@ footer {
       }
      .sideNav a.icon {display: none;}
 
+     footer {
+        margin-left: 160px;
+    clear: both;
+    width: calc(100% - 160px);
+    overflow: auto;
+    background-color: #191b1a;
+
+     }
+
   }
