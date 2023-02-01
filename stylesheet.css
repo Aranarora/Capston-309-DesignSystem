@@ -15,7 +15,7 @@ html {
     overflow: hidden;
     width: 100%;
     height: max-content;
-    position: relative;
+    position: fixed;
   }
   .navbar {
     background-color: #191b1a;
@@ -42,13 +42,13 @@ html {
     right: 0;
     top: 0;
     padding: 3% 5%;
-    margin: 30px 15px;
+    margin: 40px 15px;
     
   }
-  .navbar a:hover{background-color: #e14761;
+  .navbar a:hover{background-color: #FE9C00;
   color: black;} 
 .navbar a:active {
-  background-color: #e14761;
+  background-color: #FE9C00;
   color: black;
 }
 
