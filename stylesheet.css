@@ -73,4 +73,4 @@ footer {
   .footer-row-second-col-links, .footer-row-second-col-connect {
     margin: 50px 0px;
   }
-  
+  @media only screen and (min-width: 1024px) {}
