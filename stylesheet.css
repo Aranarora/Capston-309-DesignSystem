@@ -22,13 +22,13 @@ html {
     position: relative;
   }
   .navbar a {
-    padding: 10%;
+    padding: 10px;
     color: whitesmoke;
     text-decoration: none;
     font-size: 1.6rem;
     display: block;
   }
-  .navbar #ExLinks a:hover  { 
+  .navbar #menuExLink a:hover  { 
     color: #FE9C00;
 
   }
@@ -41,8 +41,8 @@ html {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 3% 5%;
-    margin: 40px 15px;
+    padding: 5px 10px;
+    margin: 45px 15px;
     
   }
   .navbar a:hover{background-color: #FE9C00;
