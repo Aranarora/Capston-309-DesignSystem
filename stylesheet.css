@@ -6,6 +6,23 @@ html {
   }
   
   /* all general part for the page */
+h1 {font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 3rem;}
+  h3 {font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;}
+  p, a{font-family: 'Montserrat', sans-serif;
+  font-weight: 600;}
+  p{
+    font-size: 1.6rem;
+    color: #191b1a;
+  }
+  a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: whitesmoke;
+  }
   body {
     margin: 0%;
     background-color: whitesmoke;
@@ -24,9 +41,6 @@ html {
   }
   .navbar a {
     padding: 10px;
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 1.6rem;
     display: block;
   }
   .navbar #menuExLink a:hover  { 
@@ -111,8 +125,6 @@ footer {
       }
       #menu a {
         padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 2.5rem;
         color: whitesmoke;
         display: block;
       }
