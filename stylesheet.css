@@ -10,6 +10,7 @@ html {
     margin: 0%;
     background-color: whitesmoke;
   }
+  /* Heading of all pages */
   header {
     background-color: #191b1a;
     overflow: hidden;
@@ -51,6 +52,7 @@ html {
   background-color: #FE9C00;
   color: black;
 }
+/* Footer of all pages */
 footer {
     clear: both;
     width: 100%;
