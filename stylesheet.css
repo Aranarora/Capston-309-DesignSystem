@@ -170,6 +170,14 @@ background-color: #191b1a;
   display: flex;
   flex-direction: row;}
   .homeCards .homeCards-holder .homeCards-card{margin-left: 40px;flex-grow: 1;}
+
+  /* typography page */
+  .typefaceCards-holder hr{margin-left: 40px;}
+  .typefaceCards-card{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+  align-items: center;}
      footer {
         margin-left: 160px;
     clear: both;
