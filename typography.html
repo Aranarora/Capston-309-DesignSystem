@@ -104,14 +104,49 @@ rather than function every thing i change as it works for my project -->
         </div>
       </div>
       <h2>Example Code</h2>
+      <div class="codepenDiv">
+      
       <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="rNrPYPB" data-editable="true" data-user="Aranarora" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
         <span>See the Pen <a href="https://codepen.io/Aranarora/pen/rNrPYPB">
         Untitled</a> by Aran Arora (<a href="https://codepen.io/Aranarora">@Aranarora</a>)
         on <a href="https://codepen.io">CodePen</a>.</span>
       </p>
       <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <br/>
+      <button onclick="copyTexthtml()">Copy html</button> 
+      <button onclick="copyTextCss()">Copy css</button>
+    </div>
 </main>
+<script> 
 
+    function copyTextCss() { 
 
+  
+
+        /* Copy text into clipboard */ 
+
+        navigator.clipboard.writeText 
+
+            ("h1{font-family: 'Playfair Display', serif; font-weight: 700; font-size: 30px; color: #191b1a;}"); 
+
+    } 
+
+</script>
+
+<script> 
+
+    function copyTexthtml() { 
+
+  
+
+        /* Copy text into clipboard */ 
+
+        navigator.clipboard.writeText 
+
+            ("<h1>Hello world</h1>"); 
+
+    } 
+
+</script> 
 </body>
 </html>
