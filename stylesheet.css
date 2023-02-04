@@ -8,23 +8,21 @@ html {
   /* all general part for the page */
 h1 {font-family: 'Playfair Display', serif;
   font-weight: 700;
+  color: #191b1a;
   font-size: 3rem;}
 h2{font-family: 'Playfair Display', serif;
   font-weight: 700;
+  color: #191b1a;
   font-size: 2.7rem;}
   h3 {font-family: 'Playfair Display', serif;
     font-weight: 700;
+    color: #191b1a;
     font-size: 2rem;}
   p, a{font-family: 'Montserrat', sans-serif;
-  font-weight: 600;}
-  p{
-    font-size: 1.6rem;
-    color: #191b1a;
-  }
-  a {
-    font-size: 1.6rem;
-    text-decoration: none;
-  }
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #191b1a;}
   body {
     margin: 0%;
     background-color: whitesmoke;
@@ -165,6 +163,8 @@ footer {
 .home-vision-video {
 background-color: #191b1a;
 }
+
+.allcards a{color: #191b1a;}
      footer {
         margin-left: 160px;
     clear: both;
