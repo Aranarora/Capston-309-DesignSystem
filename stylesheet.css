@@ -168,6 +168,7 @@ background-color: #191b1a;
 .allcards-holder{ justify-content: space-around;
   display: flex;
   flex-direction: row;}
+  .allcards .allcards-holder .cards{margin-left: 40px;flex-grow: 1;}
      footer {
         margin-left: 160px;
     clear: both;
