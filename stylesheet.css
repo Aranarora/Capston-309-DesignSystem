@@ -102,7 +102,7 @@ footer {
         display: none;
       }
       .topNav  #ExLink {
-        margin: 50px 20px;
+        margin: 50px 0px;
         display: flex;
         justify-content: flex-end;
       }
@@ -114,7 +114,7 @@ footer {
         margin: 0;
       padding: 0;
         height: 100%;
-        width: 160px;
+        width: 240px;
         position: fixed;
         background-color: #191b1a;
         z-index: 1;
@@ -136,11 +136,12 @@ footer {
         color: #191b1a;
       }
      .sideNav a.icon {display: none;}
-     
+
 /* Home page */
-     main{
-        margin-left: 170px;
-        width: calc(100% - 170px);
+     nav, main{
+        margin-left: 250px;
+        margin-right: 50px;
+        width: calc(100% - 300px);
      }
 
 .home-vision-maindiv {
