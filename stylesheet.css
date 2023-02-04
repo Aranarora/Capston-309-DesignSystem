@@ -24,7 +24,6 @@ h2{font-family: 'Playfair Display', serif;
   a {
     font-size: 1.6rem;
     text-decoration: none;
-    color: whitesmoke;
   }
   body {
     margin: 0%;
@@ -77,7 +76,7 @@ footer {
     background-color: #191b1a;
     text-align: center;
   }
-  .footer p, a {
+  footer a {
     color: whitesmoke;
   }
   .footer-row {
