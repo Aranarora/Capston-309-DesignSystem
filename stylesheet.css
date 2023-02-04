@@ -6,18 +6,17 @@ html {
   }
   
   /* all general part for the page */
-h1 {font-family: 'Playfair Display', serif;
+h1, h2, h3 {font-family: 'Playfair Display', serif;
   font-weight: 700;
   color: #191b1a;
-  font-size: 3rem;}
-h2{font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  color: #191b1a;
-  font-size: 2.7rem;}
-  h3 {font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #191b1a;
-    font-size: 2rem;}
+  }
+
+  h1{font-size: 3rem;}
+
+h2{font-size: 2.7rem;}
+
+  h3 {font-size: 2rem;}
+  
   p, a{font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   text-decoration: none;
