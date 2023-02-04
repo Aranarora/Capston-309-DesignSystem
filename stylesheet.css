@@ -42,8 +42,9 @@ h2{font-family: 'Playfair Display', serif;
     position: relative;
   }
   .navbar a {
-    padding: 10px;
+    padding: 8px;
     display: block;
+    color: whitesmoke;
   }
   .navbar #menuExLink a:hover  { 
     color: #FE9C00;
