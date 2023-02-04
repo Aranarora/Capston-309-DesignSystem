@@ -136,11 +136,34 @@ footer {
         color: #191b1a;
       }
      .sideNav a.icon {display: none;}
+     
+/* Home page */
      main{
         margin-left: 170px;
         width: calc(100% - 170px);
      }
 
+.home-vision-maindiv {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  object-fit: fill;
+  justify-content: space-between;
+  margin: 5% 0%;
+}
+.home-vision-div1 {
+  order: 0;
+}
+.home-vision-div2 {
+  order: 1;
+  position: relative;
+  padding-bottom: 0; /* 16:9 */
+  height: fit-content;
+  margin: 0;
+}
+.home-vision-video {
+background-color: #191b1a;
+}
      footer {
         margin-left: 160px;
     clear: both;
