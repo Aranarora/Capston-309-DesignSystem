@@ -76,7 +76,11 @@
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <br/>
+    <!-- Copy button help taken from (https://www.geeksforgeeks.org/how-to-create-copy-to-clipboard-button/amp/) -->
           
+      <button onclick="copyTexthtml()">Copy html</button> 
+      <button onclick="copyTextCss()">Copy css</button>
     </main>
     <footer>
         <div class="footer-wrapp">
@@ -131,5 +135,36 @@
           </div>
         </div>
       </footer>
+      <script> 
+
+        function copyTextCss() { 
+    
+      
+    
+            /* Copy text into clipboard */ 
+    
+            navigator.clipboard.writeText 
+            ("body{text-align: center;}.tooltip {position: relative;} .tooltip .tooltiptext {visibility: hidden;width: 120px;background-color: #191b1a;color: whitesmoke;text-align: center;border-radius: 6px;padding: 5px 0;/* Position the tooltip */position: absolute;bottom: 100%;left: 50%;margin-left: -60px;} .tooltip:hover .tooltiptext { visibility: visible;}"); 
+    
+                
+        } 
+    
+    </script>
+    
+    <script> 
+    
+        function copyTexthtml() { 
+    
+      
+    
+            /* Copy text into clipboard */ 
+    
+            navigator.clipboard.writeText 
+            ("<link rel=\"stylesheet" ,href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"/> <body> <h2>Icon Tooltip</h2> <p>hover the mouse over the info icon</p> <div class=\"tooltip\"><i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i> <span class=\"tooltiptext\">Information</span> </div> </body>"); 
+    
+                
+        } 
+    
+    </script> 
     </body>
 </html>
