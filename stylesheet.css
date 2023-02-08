@@ -216,6 +216,7 @@ background-color: #191b1a;
     justify-content: space-around;}
   .spacingCards{display: flex;
     justify-content: space-around;}
+    .spacingCards-card{text-align: center;}
      footer {
       margin-top: 5%;
         margin-left: 160px;
