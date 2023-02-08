@@ -209,6 +209,12 @@ background-color: #191b1a;
   .color-second p{ color: black;}
   .color-third{padding: 10px 40px; background-color: #FE9C00;}
   .color-third p{ color: black;}
+  /* spacing page */
+  .spacingCard{display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+  .spacingCards{display: flex;
+    justify-content: space-around;}
      footer {
       margin-top: 5%;
         margin-left: 160px;
