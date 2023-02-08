@@ -217,6 +217,10 @@ background-color: #191b1a;
   .spacingCards{display: flex;
     justify-content: space-around;}
     .spacingCards-card{text-align: center;}
+    /* images page */
+      .imagesCards{display: flex;
+        justify-content: space-around;}
+        .imagesCards-card{text-align: center;}
      footer {
       margin-top: 5%;
         margin-left: 160px;
@@ -225,6 +229,7 @@ background-color: #191b1a;
     overflow: auto;
     background-color: #191b1a;
      }
+     
      .footer-row{
         display: flex;
         flex-direction: row;
