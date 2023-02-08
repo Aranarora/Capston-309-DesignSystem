@@ -152,7 +152,7 @@ footer {
         color: #191b1a;
       }
      .sideNav a.icon {display: none;}
-     hr{margin-left: 40px;}
+     .divLine{margin-left: 40px;}
 
 /* Home page */
      nav, main{
