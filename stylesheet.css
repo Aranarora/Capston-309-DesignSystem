@@ -213,7 +213,8 @@ height: 315px;
     align-items: center;
     margin: auto 10%;
     }
-    
+    .typefaceCards-card .left{width: 50%;}
+   
   .codepenDiv{margin-left: 40px;}
   /* Color page */
 
