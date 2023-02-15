@@ -211,7 +211,7 @@ height: 315px;
   .typefaceCards-card{display: flex;
     flex-direction: row;
     align-items: center;
- 
+    margin: auto 10%;
     }
     
   .codepenDiv{margin-left: 40px;}
