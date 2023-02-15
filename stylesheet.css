@@ -216,7 +216,8 @@ height: 315px;
     .typefaceCards-card .left{width: 50%;}
     .typefaceCards-card .center{
       width: 25%;}
-     
+      .typefaceCards-card .right{
+        width: 25%;}
   .codepenDiv{margin-left: 40px;}
   /* Color page */
 
