@@ -223,8 +223,9 @@ height: 315px;
 
   .colorCards-card{display: flex;
     flex-direction: row;
-  align-items: center;}
-  
+  align-items: center;
+  margin: auto 10%;}
+ 
   .color-first{padding: 10px 40px; background-color: #191b1a;}
   .color-first p{color: white;}
   .color-second{padding: 10px 40px; background-color: whitesmoke;}
