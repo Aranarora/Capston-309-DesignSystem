@@ -87,6 +87,17 @@ h2{font-size: 2.8rem;}
   background-color: #FE9C00;
   color: black;
 }
+/* Home page */
+.home-vision-maindiv{display: flex;
+  flex-direction: column;}
+  .home-vision-div1{order: 0;}
+  .home-vision-div2{
+    position: relative;
+  padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
+  margin: 4% 0%;
+  height: 0;
+  order: 1;
+  }
 /* Footer of all pages */
 footer {
     clear: both;
