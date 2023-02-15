@@ -195,6 +195,9 @@ footer {
 }
 .home-vision-video {
 background-color: #191b1a;
+position: relative;
+width: 560px;
+height: 315px;
 }
 
 .homeCards a{color: #191b1a;}
