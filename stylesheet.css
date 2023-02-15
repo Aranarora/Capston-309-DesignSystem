@@ -4,6 +4,9 @@ html {
   * {
     box-sizing: border-box;
   }
+  header,
+  main, footer{width: 85%;
+    margin: 0 auto;}
   
   /* all general part for the page */
 h1, h2, h3 {font-family: 'Playfair Display', serif;
