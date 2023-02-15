@@ -105,6 +105,16 @@ h2{font-size: 2.8rem;}
   .color-second p{ color: black;}
   .color-third{padding: 10px 40px; background-color: #FE9C00;}
   .color-third p{ color: black;}
+  /* list page */
+  .codepenDiv ul{
+    list-style-type: none;
+    
+  }
+  .codepenDiv a{
+    text-decoration: none;
+    color: black;
+  }
+  .codepenDiv a:hover { color: #FE9C00;}
 /* Footer of all pages */
 footer {
     clear: both;
