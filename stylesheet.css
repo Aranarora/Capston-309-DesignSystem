@@ -26,6 +26,9 @@ h2{font-size: 2.8rem;}
   font-size: 1.6rem;
   color: #191b1a;}
   a{font-weight: 600;}
+  ul, ol{font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;}
 
   body {
     margin: 0%;
