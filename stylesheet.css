@@ -210,9 +210,10 @@ height: 315px;
 
   .typefaceCards-card{display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    display: flex;
-  align-items: center;}
+    align-items: center;
+ 
+    }
+    
   .codepenDiv{margin-left: 40px;}
   /* Color page */
 
