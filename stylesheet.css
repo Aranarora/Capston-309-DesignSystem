@@ -98,6 +98,13 @@ h2{font-size: 2.8rem;}
   height: 0;
   order: 1;
   }
+  /* color page */
+  .color-first{padding: 10px 40px; background-color: #191b1a;}
+  .color-first p{color: white;}
+  .color-second{padding: 10px 40px; background-color: whitesmoke;}
+  .color-second p{ color: black;}
+  .color-third{padding: 10px 40px; background-color: #FE9C00;}
+  .color-third p{ color: black;}
 /* Footer of all pages */
 footer {
     clear: both;
@@ -228,12 +235,7 @@ height: 315px;
   .colorCards-card .left{width: 50%;}
   .colorCards-card .center{width: 25%;}
   .colorCards-card .right{width: 25%;}
-  .color-first{padding: 10px 40px; background-color: #191b1a;}
-  .color-first p{color: white;}
-  .color-second{padding: 10px 40px; background-color: whitesmoke;}
-  .color-second p{ color: black;}
-  .color-third{padding: 10px 40px; background-color: #FE9C00;}
-  .color-third p{ color: black;}
+  
   /* spacing page */
   .spacingCard{display: flex;
     flex-direction: row;
