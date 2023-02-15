@@ -227,6 +227,7 @@ height: 315px;
   margin: auto 10%;}
   .colorCards-card .left{width: 50%;}
   .colorCards-card .center{width: 25%;}
+  .colorCards-card .right{width: 25%;}
   .color-first{padding: 10px 40px; background-color: #191b1a;}
   .color-first p{color: white;}
   .color-second{padding: 10px 40px; background-color: whitesmoke;}
