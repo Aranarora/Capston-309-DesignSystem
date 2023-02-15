@@ -26,9 +26,12 @@ h2{font-size: 2.8rem;}
   font-size: 1.6rem;
   color: #191b1a;}
   a{font-weight: 600;}
+  a:hover { color: #FE9C00;}
+  
   ul, ol{font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;}
+    ul a:hover { color: #FE9C00;}
 
   body {
     margin: 0%;
@@ -117,7 +120,6 @@ h2{font-size: 2.8rem;}
     text-decoration: none;
     color: black;
   }
-  .codepenDiv a:hover { color: #FE9C00;}
 /* Footer of all pages */
 footer {
     clear: both;
