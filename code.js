@@ -1,3 +1,4 @@
+// help or idea taken from this site https://www.roboleary.net/2022/01/13/copy-code-to-clipboard-blog.html
 const copyButtonLabel = "Copy";
 
 // use a class selector if available
