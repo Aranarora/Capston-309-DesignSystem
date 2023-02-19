@@ -71,18 +71,76 @@
         <h2>Example</h2>
         <section>
           <div class="slideshow-wrapper">
-                  <img class="slideshow-slides" src="Images/default-img.gif" alt="images one" style="height: 500px; width: 100%" />
-                  <img class="slideshow-slides" src="Images/no-photo-available.jpg" alt="images two" style="height: 500px; width: 100%" />
-                  <img class="slideshow-slides" src="Images/default-image.jpg" alt="images three" style="height: 500px; width: 100%" />
+                  <img class="slideshow-slides" src="Images/default-img.gif" alt="images one" style="max-height: 400px;min-height: 180px; width: 100%" />
+                  <img class="slideshow-slides" src="Images/no-photo-available.jpg" alt="images two" style="max-height: 400px;min-height: 180px; width: 100%" />
+                  <img class="slideshow-slides" src="Images/default-image.jpg" alt="images three" style="max-height: 400px;min-height: 180px; width: 100%" />
                 </div>
             </section>
-        <!-- help taken from (https://codepen.io/l3ikrant/pen/doNKKd)for making the code example and edited according to the requirements -->
-        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="mdjYaPE" data-editable="true" data-user="Aranarora" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-            <span>See the Pen <a href="https://codepen.io/Aranarora/pen/mdjYaPE">
-            Carousel only with CSS</a> by Aran Arora (<a href="https://codepen.io/Aranarora">@Aranarora</a>)
-            on <a href="https://codepen.io">CodePen</a>.</span>
-          </p>
-          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <details>
+              <summary>Code behind Example</summary>
+              <br>
+        
+        <script src="https://gist.github.com/Aranarora/696acd8c29d2d1814139a77f999ee6de.js"></script>
+        <div style="display: flex; flex-direction: row;
+align-items: center;">
+<div class="html" style="display: flex; flex-direction: row;
+align-items: center;"><code style=" display:none">
+&lt;section&gt;
+&lt;div class=&quot;slideshow-wrapper&quot;&gt;
+        &lt;img class=&quot;slideshow-slides&quot; src=&quot;#&quot; alt=&quot;images one&quot; style=&quot;max-height: 400px;min-height: 180px; width: 100%&quot; /&gt;
+        &lt;img class=&quot;slideshow-slides&quot; src=&quot;#&quot; alt=&quot;images two&quot; style=&quot;max-height: 400px;min-height: 180px; width: 100%&quot; /&gt;
+        &lt;img class=&quot;slideshow-slides&quot; src=&quot;#&quot; alt=&quot;images three&quot; style=&quot;max-height: 400px;min-height: 180px; width: 100%&quot; /&gt;
+  &lt;/section&gt;
+</code>
+<h3>Html:</h3>
+</div>
+<div class="html" style="display: flex; flex-direction: row;
+align-items: center;"><code style=" display:none">
+.section-slideshow-wrapper {
+  position: relative;
+  display: block;
+ display: flex;
+  justify-content: center;
+}
+.slideshow-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  background: grey;
+}
+.slideshow-slides{
+  border: 5px solid #FE9C00;
+}
+.slideshow-slides&gt;.slideshow-slides {
+  position: absolute;
+  transition: all 500ms ease-in-out;
+}
+</code>
+<h3>Css:</h3>
+</div>
+<div class="html" style="display: flex; flex-direction: row;
+align-items: center;"><code style=" display:none">
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName(&quot;slideshow-slides&quot;);
+  for (i = 0; i &lt; x.length; i++) {
+    x[i].style.display = &quot;none&quot;;
+  }
+  myIndex++;
+  if (myIndex &gt; x.length) {
+    myIndex = 1;
+  }
+  x[myIndex - 1].style.display = &quot;block&quot;;
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</code>
+<h3>Java:</h3>
+</div>
+</div>
+            </details>
     </main>
 
     <footer>
