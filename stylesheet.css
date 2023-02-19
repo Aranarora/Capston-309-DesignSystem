@@ -120,6 +120,33 @@ h2{font-size: 2.8rem;}
     text-decoration: none;
     color: black;
   }
+  /* carousel page */
+  .section-slideshow-wrapper {
+    position: relative;
+    display: block;
+   display: flex;
+    justify-content: center;
+  }
+  .slideshow-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    background: grey;
+  }
+  .slideshow-wrapper{
+    border: 5px solid #FE9C00;
+    border-radius: 1%;
+    overflow: hidden;
+  }
+  .slideshow-slides>.slideshow-slides {
+    position: absolute;
+    transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+  }
+  
 /* Footer of all pages */
 footer {
     clear: both;
