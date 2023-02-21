@@ -124,6 +124,29 @@ h2{font-size: 2.8rem;}
     text-decoration: none;
     color: black;
   }
+  /* tooltip page */
+  .fa-info-circle {
+    position: relative;
+  }
+  
+  .fa-info-circle .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #191b1a;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .fa-info-circle:hover .tooltiptext {
+    visibility: visible;
+  }
   /* carousel page */
   .section-slideshow-wrapper {
     position: relative;
