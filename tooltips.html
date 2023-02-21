@@ -73,7 +73,58 @@
         <h3>Icon Tooltip</h3>
 <p>hover the mouse over the info icon <i class="fa fa-info-circle" aria-hidden="true">
   <span class="tooltiptext">Information</span></i></p>
+          <details>
+            <summary>Code behind Example:</summary>
+            <br>
+      
+            <script src="https://gist.github.com/Aranarora/67ced7c8a867f8385018e7c5c6af1746.js"></script>
+      <div style="display: flex; flex-direction: row;
+    align-items: center;">
+    <div class="html" style="display: flex; flex-direction: row;
+    align-items: center;"><code style=" display:none">
+    &lt;!-- add link in head --&gt;
+    &lt;link
+          rel=&quot;stylesheet&quot;
+          href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;/&gt;
           
+    &lt;!-- add the icon in the body where you want --&gt;
+    &lt;h2&gt;Icon Tooltip&lt;/h2&gt;
+    &lt;p&gt;hover the mouse over the info icon &lt;i class=&quot;fa fa-info-circle&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;span class=&quot;tooltiptext&quot;&gt;Information&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+    </code>
+    <h3>Html:</h3>
+    </div>
+    <div class="html" style="display: flex; flex-direction: row;
+    align-items: center;"><code style=" display:none">
+   body{text-align: center;}
+   .fa-info-circle {
+     position: relative;
+   }
+   
+   .fa-info-circle .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: #191b1a;
+     color: whitesmoke;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+     
+     /* Position the tooltip */
+     position: absolute;
+     bottom: 100%;
+     left: 50%;
+     margin-left: -60px;
+   }
+   .fa-info-circle:hover .tooltiptext {
+     visibility: visible;
+   }
+    </code>
+    <h3>Css:</h3>
+    </div>
+    </div>
+          </details>
+          <br>
     </div>
     </main>
     <footer>
