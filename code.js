@@ -2,7 +2,7 @@
 const copyButtonLabel = "Copy";
 
 // use a class selector if available
-let blocks = document.querySelectorAll(".html");
+let blocks = document.querySelectorAll(".codz");
 
 blocks.forEach((block) => {
   // only add button if browser supports Clipboard API
@@ -32,39 +32,7 @@ async function copyCode(block, button) {
   }, 700);
 }
 
-// css
-const copyButtonLabel1 = "Copy";
 
-// use a class selector if available
-let blocks1 = document.querySelectorAll(".css");
-
-blocks1.forEach((block1) => {
-  // only add button if browser supports Clipboard API
-  if (navigator.clipboard) {
-    let button1 = document.createElement("button");
-
-    button1.innerText = copyButtonLabel1;
-    block1.appendChild(button1);
-
-    button1.addEventListener("click", async () => {
-      await copyCode(block1, button1);
-    });
-  }
-});
-
-async function copyCode(block1, button1) {
-  let code = block1.querySelector("code");
-  let text = code.innerText;
-
-  await navigator.clipboard.writeText(text);
-
-  // visual feedback that task is completed
-  button1.innerText = "Copied";
-
-  setTimeout(() => {
-    button1.innerText = copyButtonLabel1;
-  }, 700);
-}
 
 var myIndex = 0;
       carousel();
