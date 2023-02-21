@@ -147,6 +147,32 @@ h2{font-size: 2.8rem;}
   .fa-info-circle:hover .tooltiptext {
     visibility: visible;
   }
+  /* table page */
+  #info {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  #info td, #info th {
+    border: 1px solid #191b1a;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  #info tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #info tr:hover {background-color: #191b1a;
+  color: whitesmoke;}
+  
+  #info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FE9C00;
+    color: whitesmoke;
+  }
   /* carousel page */
   .section-slideshow-wrapper {
     position: relative;
