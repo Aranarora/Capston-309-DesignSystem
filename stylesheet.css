@@ -20,7 +20,9 @@ h2{font-size: 2.8rem;}
 
   h3 {font-size: 2rem;}
 
-  summary{font-size: 2rem;}
+  summary{font-size: 2rem;
+  text-decoration: underline;
+  color: #191b1a;}
   
   p, a{font-family: 'Montserrat', sans-serif;
   font-weight: 400;
