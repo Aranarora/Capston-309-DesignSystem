@@ -137,6 +137,7 @@ h2{font-size: 2.8rem;}
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
+
     
     /* Position the tooltip */
     position: absolute;
@@ -146,6 +147,42 @@ h2{font-size: 2.8rem;}
   }
   .fa-info-circle:hover .tooltiptext {
     visibility: visible;
+  }
+  /* nav page */
+  .navbar1 {
+    background-color: #191b1a;
+    position: relative;
+    width : 300px
+    /* width not needed, if you are using mediaquery to seprate the navigation acording to the screen*/
+  }
+  
+  .navbar1 #myLinks1 {
+    display: none;
+  }
+  
+  .navbar1 a {
+    padding: 3%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: block;
+  }
+  
+  .navbar1 a.icon {
+    background: #191b1a;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4% 6%;
+    margin: 16% 5%;
+  }
+  
+  .navbar1 a:hover{background-color: #FE9C00;
+    color: black;} 
+  .navbar1 a:active {
+    background-color: #FE9C00;
+    color: black;
   }
   /* table page */
   #info {
