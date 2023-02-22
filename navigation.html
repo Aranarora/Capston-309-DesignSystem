@@ -91,7 +91,94 @@
             <i class="fa fa-bars"></i>
           </a>
           </div>
-          
+          <br>
+          <details>
+            <summary>Code behind Example:</summary>
+            <br>
+      
+            <script src="https://gist.github.com/Aranarora/58d7fd607aca13f98fe209843dd43955.js"></script>
+      <div style="display: flex; flex-direction: row;
+    align-items: center;">
+    <div class="codz" style="display: flex; flex-direction: row;
+    align-items: center;"><code style=" display:none">
+    &lt;nav class=&quot;navbar&quot;&gt;
+    &lt;a
+    href=&quot;home.html&quot;
+    style=&quot;width: 170px&quot;
+    &gt;&lt;img
+      src=&quot;images/e-scooter.svg&quot;
+      style=&quot;width: 120px&quot;
+      alt=&quot;electric scooter image&quot;
+  /&gt;&lt;/a&gt;
+
+    &lt;div id=&quot;myLinks&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;Page 1&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Page 2&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Page 3&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Page 4&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;a href=&quot;javascript:void(0);&quot; class=&quot;icon&quot; onclick=&quot;myFunction()&quot;&gt;
+      &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;
+    &lt;/a&gt;
+    &lt;/nav&gt;
+    </code>
+    <h3>Html:</h3>
+    </div>
+    <div class="codz" style="display: flex; flex-direction: row;
+    align-items: center;"><code style=" display:none">
+    .navbar {
+      background-color: #191b1a;
+      position: relative;
+      width : 300px
+      /* width not needed, if you are using mediaquery to seprate the navigation acording to the screen*/
+    }
+    
+    .navbar #myLinks1 {
+      display: none;
+    }
+    
+    .navbar a {
+      padding: 3%;
+      color: whitesmoke;
+      text-decoration: none;
+      font-size: 1.6rem;
+      display: block;
+    }
+    
+    .navbar a.icon {
+      background: #191b1a;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 4% 6%;
+      margin: 16% 5%;
+    }
+    
+    .navbar a:hover{background-color: #FE9C00;
+      color: black;} 
+    .navbar a:active {
+      background-color: #FE9C00;
+      color: black;
+    }
+    </code>
+    <h3>Css:</h3>
+    </div>
+    <div class="codz" style="display: flex; flex-direction: row;
+    align-items: center;"><code style=" display:none">
+    function myFunction() {
+      var x = document.getElementById(&quot;myLinks&quot;);
+      if (x.style.display === &quot;block&quot;) {
+        x.style.display = &quot;none&quot;;
+      } else {
+        x.style.display = &quot;block&quot;;
+      }
+    }
+  </code>
+   <h3>Java:</h3>  
+  </div>
+    </div>
+          </details>
         </div>
        
 
