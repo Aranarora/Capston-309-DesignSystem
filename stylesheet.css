@@ -354,7 +354,7 @@ h2{font-size: 2.8rem;}
   .nav-form-wrapper select,
   .nav-form-wrapper textarea {
     max-width: auto;
-    width: 90%;
+    width:100%;
     padding: 12px;
     border: 0px;
     border-radius: 4px;
@@ -384,9 +384,9 @@ h2{font-size: 2.8rem;}
   .nav-form-wrapper {
       border-radius: 5px;
       background-color: #191b1a;
-      max-width: 50%;
+      max-width:max-content;
       padding: 20px;
-      margin: 50px auto;
+      margin: 50px 0px;
     }
   /* carousel page */
   .section-slideshow-wrapper {
