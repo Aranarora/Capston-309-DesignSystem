@@ -184,6 +184,31 @@ h2{font-size: 2.8rem;}
     background-color: #FE9C00;
     color: black;
   }
+/* desktop version */
+  .navbar2 {
+    background-color: #191b1a;
+    position: relative;
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar2 #myLinks {
+    display: flex;
+    margin: 50px 18px;
+  }
+  .navbar2 a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    display: inline;
+  }
+  .navbar2 a:hover{background-color: #FE9C00;
+    color: black;} 
+  .navbar2 a:active {
+    background-color: #FE9C00;
+    color: black;
+  }
   /* table page */
   #info {
     border-collapse: collapse;
