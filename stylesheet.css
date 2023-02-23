@@ -269,7 +269,28 @@ h2{font-size: 2.8rem;}
     background-color: #191b1a;
     color: #FE9C00;
   }
-  
+  /* breadcrumb example */
+  .nav-breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #191b1a;
+  }
+  .nav-breadcrumb a {
+    display: inline;
+    font-size: 18px;
+  }
+  .nav-breadcrumb a+a:before {
+    padding: 8px;
+    color: whitesmoke;
+    content: "/\00a0";
+  }
+  .nav-breadcrumb a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .nav-breadcrumb a:hover {
+    color: #FE9C00;
+  }
   /* table page */
   #info {
     border-collapse: collapse;
