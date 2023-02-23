@@ -386,7 +386,7 @@ h2{font-size: 2.8rem;}
       background-color: #191b1a;
       max-width:max-content;
       padding: 20px;
-      margin: 50px 0px;
+      margin: 50px auto;
     }
   /* carousel page */
   .section-slideshow-wrapper {
