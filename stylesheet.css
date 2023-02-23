@@ -212,7 +212,7 @@ h2{font-size: 2.8rem;}
   /* sub menu example */
   .nav-btn {
     background-color: #191b1a;
-    color: #FE9C00;
+    color: whitesmoke;
     font-size: 16px;
     font-weight: 600;
     border: none;
@@ -252,7 +252,7 @@ h2{font-size: 2.8rem;}
   /* button example */
   .nav-button {
     background-color: #FE9C00;
-    color: whitesmoke;
+    color: #191b1a;
     font-size: 2rem;
     border: none;
     border-radius: 5px;
