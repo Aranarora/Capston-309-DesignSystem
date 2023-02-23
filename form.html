@@ -73,6 +73,45 @@
         </p>
 <h2>Example Code</h2>
 <div class="codepenDiv">
+  <div class="nav-form-wrapper">
+    <h2>Requiered fields with placeholders</h2>
+    <form
+      method="post"
+      action="link of the action">
+       <label for="field-2">
+         Field  One<span class="nav-form-label-required"
+          >* (required)</span></label>
+      <input
+        type="text"
+        id="field-1"
+        name="placeholder-1"
+        placeholder="Ex: Placeholder One"
+        required/>
+
+      <label for="field-2"
+        >Field Two<span class="nav-form-label-required"
+          >* (required)</span></label>
+      <input
+        type="text"
+        id="field-2"
+        name="placeholder-2"
+        placeholder="Ex: Placeholder Two"
+        required/>
+
+       <label for="field-3"
+        >Field Two<span class="nav-form-label-optional"
+          >* (optional)</span
+        ></label>
+      <input
+        type="text"
+        id="field-3"
+        name="placeholder-2"
+        placeholder="Ex: Placeholder Three"/>
+      <div class="nav-form-wrapper-button">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
   <script src="https://gist.github.com/Aranarora/e4b68276bff03963aec8890dac36703d.js"></script>
 </div>
 
