@@ -430,6 +430,27 @@ h2{font-size: 2.8rem;}
     max-width: fit-content;
     margin-bottom: 48px;
   }
+
+  .secondcard {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .secondcard .allcards {
+    display: flex;
+    justify-content: space-between;
+  width: min-content;
+      
+  }
+  .secondcard .allcards .image{background-color: #191b1a;
+    color: whitesmoke;
+    text-align: center;
+    width: 350px;
+    height: 250px;}
+  .secondcard .allcards .cards {
+    box-sizing: border-box;
+    width: 350px;
+    margin-right: 30px;
+  }
 /* Footer of all pages */
 footer {
     clear: both;
