@@ -191,6 +191,7 @@ h2{font-size: 2.8rem;}
     width : 100%;
     display: flex;
     justify-content: space-between;
+    overflow-x: scroll;
   }
   .navbar2 #myLinks2 {
     display: flex;
