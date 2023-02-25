@@ -466,7 +466,7 @@ h2{font-size: 2.8rem;}
   background-color: #FE9C00;
     color: whitesmoke;
 }
-  /* card page */
+/* card page */
   .firstcard {
     width: 100%;
   }
@@ -652,9 +652,18 @@ height: 315px;
       .spacingCards-card .right{
         width: 25%; text-align: center;}
     /* images page */
-      .imagesCards{display: flex;
-        justify-content: space-around;}
-        .imagesCards-card{text-align: center;}
+    .imagesCards-card{display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto 10%;
+      }
+      .imagesCards-card .left{width: 25%;}
+      .imagesCards-card .center{
+        width: 75%; text-align: center;}
+      
+
+
      footer {
       margin-top: 5%;
         margin-left: 160px;
