@@ -24,7 +24,7 @@ h2{font-size: 2.8rem;}
   text-decoration: underline;
   color: #191b1a;}
   
-  p, a{font-family: 'Montserrat', sans-serif;
+  p, a, div{font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-decoration: none;
   font-size: 1.6rem;
