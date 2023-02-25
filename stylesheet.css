@@ -33,7 +33,7 @@ h2{font-size: 2.8rem;}
   a:hover { color: #FE9C00;}
   
   ul, ol{font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.6rem;}
     ul a:hover { color: #FE9C00;}
 
@@ -85,8 +85,9 @@ h2{font-size: 2.8rem;}
     display: none;
   }
   #menu p{color: whitesmoke;
-    text-align: center;
+    margin-left: 10px;
     font-weight: 600;
+    font-size: 2rem;
   }
   .navbar a.icon {
     background: #191b1a;
