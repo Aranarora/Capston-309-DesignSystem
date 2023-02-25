@@ -409,6 +409,22 @@ h2{font-size: 2.8rem;}
     position: absolute;
     transition: all 500ms ease-in-out;
   }
+  /* spacing page */
+  .div-padding, .containers-padding{
+    border: 16px solid #FE9C00;
+    background-color: #191b1a;
+    color: #f2f2f2;
+  }
+  .images-padding{
+    border: 12px solid #FE9C00;
+    background-color: #191b1a;
+    color: #f2f2f2;
+  }
+.containers-margin{
+  border: 32px solid #FE9C00;
+    background-color: #191b1a;
+    color: #f2f2f2;
+}
   /* card page */
   .firstcard {
     width: 100%;
@@ -590,9 +606,9 @@ height: 315px;
     }
     .spacingCards-card .left{width: 50%;}
     .spacingCards-card .center{
-      width: 25%;}
+      width: 25%; text-align: center;}
       .spacingCards-card .right{
-        width: 25%;}
+        width: 25%; text-align: center;}
     /* images page */
       .imagesCards{display: flex;
         justify-content: space-around;}
