@@ -538,6 +538,7 @@ h2{font-size: 2.8rem;}
   }
 /* Footer of all pages */
 footer {
+  margin-top: 10%;
     clear: both;
     width: 100%;
     overflow: auto;
