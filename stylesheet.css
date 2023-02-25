@@ -410,6 +410,14 @@ h2{font-size: 2.8rem;}
     transition: all 500ms ease-in-out;
   }
   /* spacing page */
+  .spacingCards-card{
+    margin: 10%;
+    }
+    .spacingCards-card .left{margin: 5%;}
+    .spacingCards-card .center{margin: 5%;
+      }
+      .spacingCards-card .right{margin: 5%;
+        }
   .div-padding, .containers-padding{
     border: 16px solid #FE9C00;
     background-color: #191b1a;
