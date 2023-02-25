@@ -418,6 +418,10 @@ h2{font-size: 2.8rem;}
       }
       .spacingCards-card .right{margin: 5%;
         }
+  .padding{
+    background-color: #FE9C00;
+    color: whitesmoke;
+  }
   .div-padding, .containers-padding{
     border: 16px solid #FE9C00;
     background-color: #191b1a;
@@ -438,6 +442,10 @@ h2{font-size: 2.8rem;}
 .heading-padding, .peragraphs-padding, .hyperLinks-padding, .lists-padding{
     background-color: #191b1a;
     color: whitesmoke;
+}
+.margin{
+  background-color: #191b1a;
+  color: whitesmoke;
 }
 .containers-margin{
   border: 32px solid #191b1a;
