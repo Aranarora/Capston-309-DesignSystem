@@ -421,22 +421,42 @@ h2{font-size: 2.8rem;}
   .div-padding, .containers-padding{
     border: 16px solid #FE9C00;
     background-color: #191b1a;
-    color: #f2f2f2;
+    color: whitesmoke;
   }
   .images-padding{
     border: 12px solid #FE9C00;
     background-color: #191b1a;
-    color: #f2f2f2;
+    color: whitesmoke;
   }
-.containers-margin{
-  border: 32px solid #FE9C00;
+  .buttons-padding{
+    border-top: 12px solid #FE9C00;
+    border-bottom: 12px solid #FE9C00;
+    border-left: 24px solid #FE9C00;
+    border-right: 24px solid #FE9C00;
     background-color: #191b1a;
-    color: #f2f2f2;
+    color: whitesmoke;}
+.heading-padding, .peragraphs-padding, .hyperLinks-padding, .lists-padding{
+    background-color: #191b1a;
+    color: whitesmoke;
+}
+.containers-margin{
+  border: 32px solid #191b1a;
+    background-color: #FE9C00;
+    color: whitesmoke;
 }
 .div-margin{
   border: 48px solid #191b1a;
     background-color: #FE9C00;
-    color: #f2f2f2;
+    color: whitesmoke;
+}
+.images-margin, .buttons-margin{
+  border: 24px solid #191b1a;
+    background-color: #FE9C00;
+    color: whitesmoke;
+}
+.heading-margin, .peragraphs-margin, .hyperLinks-margin, .lists-margin{
+  background-color: #FE9C00;
+    color: whitesmoke;
 }
   /* card page */
   .firstcard {
