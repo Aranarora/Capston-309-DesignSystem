@@ -602,9 +602,10 @@ height: 315px;
   .spacingCards-card{display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin: auto 10%;
     }
-    .spacingCards-card .left{width: 50%;}
+    .spacingCards-card .left{width: 25%;}
     .spacingCards-card .center{
       width: 25%; text-align: center;}
       .spacingCards-card .right{
