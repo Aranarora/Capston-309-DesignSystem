@@ -583,12 +583,16 @@ height: 315px;
   .colorCards-card .right{width: 25%;}
   
   /* spacing page */
-  .spacingCard{display: flex;
+  .spacingCards-card{display: flex;
     flex-direction: row;
-    justify-content: space-around;}
-  .spacingCards{display: flex;
-    justify-content: space-around;}
-    .spacingCards-card{text-align: center;}
+    align-items: center;
+    margin: auto 10%;
+    }
+    .spacingCards-card .left{width: 50%;}
+    .spacingCards-card .center{
+      width: 25%;}
+      .spacingCards-card .right{
+        width: 25%;}
     /* images page */
       .imagesCards{display: flex;
         justify-content: space-around;}
