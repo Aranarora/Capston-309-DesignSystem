@@ -425,6 +425,11 @@ h2{font-size: 2.8rem;}
     background-color: #191b1a;
     color: #f2f2f2;
 }
+.div-margin{
+  border: 48px solid #191b1a;
+    background-color: #FE9C00;
+    color: #f2f2f2;
+}
   /* card page */
   .firstcard {
     width: 100%;
