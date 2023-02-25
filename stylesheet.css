@@ -395,16 +395,12 @@ h2{font-size: 2.8rem;}
   /* carousel page */
   .section-slideshow-wrapper {
     position: relative;
-    display: block;
-   display: flex;
-    justify-content: center;
     overflow: hidden;
   }
   .slideshow-wrapper {
-    display: inline-block;
     position: relative;
-    width: 70%;
-    background: grey;
+    display: flex;
+    justify-content: center;
   }
   .slideshow-slides{
     border: 5px solid #FE9C00;
