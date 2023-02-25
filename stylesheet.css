@@ -84,6 +84,10 @@ h2{font-size: 2.8rem;}
   .navbar #menu, #ExLink, #menuLogo {
     display: none;
   }
+  #menu p{color: whitesmoke;
+    text-align: center;
+    font-weight: 600;
+  }
   .navbar a.icon {
     background: #191b1a;
     display: block;
