@@ -465,7 +465,36 @@ h2{font-size: 2.8rem;}
 .heading-margin, .peragraphs-margin, .hyperLinks-margin, .lists-margin{
   background-color: #FE9C00;
     color: whitesmoke;
-}/* card page */
+}
+/* image page */
+.imagesCards-card{
+  align-items: center;
+  justify-content: space-between;
+  }
+  .imagesCards-card .center{
+    text-align: center;
+  }
+.normal-image img{
+  height: 300px; width: 300px; margin: auto; background-color: #191b1a;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.carousel-image img{
+  height: 168.75px; width: 300px; margin: auto; background-color: #191b1a;
+  border: 5px solid #FE9C00;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.gallery-image img{
+  height: 225px; width: 300px; margin: auto; background-color: #191b1a;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+  /* card page */
   .firstcard {
     width: 100%;
   }
