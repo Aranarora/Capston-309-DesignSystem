@@ -62,4 +62,18 @@ html {
     color: black;
   }
 
-  
+  @media only screen and (min-width: 1024px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar #myLinks {
+        display: flex;
+        margin: 50px 18px;
+      }
+      .navbar a {
+        padding: 10px 20px;
+        display: inline;
+      }
+      .navbar a.icon {display: none;}
+  }
