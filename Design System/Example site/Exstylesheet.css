@@ -12,6 +12,16 @@ html {
         height: max-content;
         position: relative;
       }
+      h1, h2, h3, summary {font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #191b1a;
+        }
+      
+        h1{font-size: 3.5rem;}
+      
+      h2{font-size: 2.8rem;}
+      
+        h3 {font-size: 2rem;}
 .navbar {
     background-color: #191b1a;
     position: relative;
