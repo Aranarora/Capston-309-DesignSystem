@@ -1,4 +1,11 @@
-header {
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    margin: 0%;
+  }
+    header {
         background-color: #191b1a;
         overflow: hidden;
         width: 100%;
