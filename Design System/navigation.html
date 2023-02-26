@@ -110,31 +110,40 @@
     align-items: center; overflow-x: scroll;">
     <div class="codz" style="display: flex; flex-direction: row;
     align-items: center;"><code style=" display:none">
-    &lt;nav class=&quot;navbar&quot;&gt;
-    &lt;a
-    href=&quot;home.html&quot;
-    style=&quot;width: 190px&quot;
-    &gt;&lt;img
-      src=&quot;images/e-scooter.svg&quot;
-      style=&quot;width: 120px&quot;
-      alt=&quot;electric scooter image&quot;
-  /&gt;&lt;/a&gt;
-
-    &lt;div id=&quot;myLinks&quot;&gt;
-      &lt;a href=&quot;#&quot;&gt;Page 1&lt;/a&gt;
-      &lt;a href=&quot;#&quot;&gt;Page 2&lt;/a&gt;
-      &lt;a href=&quot;#&quot;&gt;Page 3&lt;/a&gt;
-      &lt;a href=&quot;#&quot;&gt;Page 4&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;a href=&quot;javascript:void(0);&quot; class=&quot;icon&quot; onclick=&quot;myFunction()&quot;&gt;
-      &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;
-    &lt;/a&gt;
-    &lt;/nav&gt;
+     &lt;header&gt;
+     &lt;nav class=&quot;navbar&quot;&gt;
+              &lt;a
+              href=&quot;home.html&quot;
+              style=&quot;width: 190px&quot;
+              &gt;&lt;img
+                src=&quot;images/e-scooter.svg&quot;
+                style=&quot;width: 120px&quot;
+                alt=&quot;electric scooter image&quot;
+            /&gt;&lt;/a&gt;
+    
+              &lt;div id=&quot;myLinks&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;Page 1&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;Page 2&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;Page 3&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;Page 4&lt;/a&gt;
+              &lt;/div&gt;
+              &lt;a href=&quot;javascript:void(0);&quot; class=&quot;icon&quot; onclick=&quot;myFunction()&quot;&gt;
+                &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;
+              &lt;/a&gt;
+              &lt;/nav&gt;
+              &lt;/header&gt;
     </code>
     <h3>Html:</h3>
     </div>
     <div class="codz" style="display: flex; flex-direction: row;
     align-items: center;"><code style=" display:none">
+    header {
+      background-color: #191b1a;
+      overflow: hidden;
+      width: 100%;
+      height: max-content;
+      position: relative;
+    }
     .navbar {
       background-color: #191b1a;
       position: relative;
@@ -159,8 +168,8 @@
       position: absolute;
       right: 0;
       top: 0;
-      padding: 4% 6%;
-      margin: 16% 5%;
+      padding: 3% 5%;
+      margin: 53px 15px;
     }
     
     .navbar a:hover{background-color: #FE9C00;
