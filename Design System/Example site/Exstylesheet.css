@@ -335,6 +335,8 @@ footer {
         width: 100%;
       }
     .allcards {
+        padding: 16px 0px;
+        margin: 24px 0px;
         display: flex;
           flex-direction: column;
           align-items: center;
