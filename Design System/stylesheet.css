@@ -408,10 +408,6 @@ h2{font-size: 2.8rem;}
       margin: 50px auto;
     }
   /* carousel page */
-  .section-slideshow-wrapper {
-    position: relative;
-    overflow: hidden;
-  }
   .slideshow-wrapper {
     position: relative;
     display: flex;
