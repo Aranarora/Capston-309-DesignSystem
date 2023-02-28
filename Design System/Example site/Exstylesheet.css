@@ -1,6 +1,9 @@
 html {
     font-size: 62.5%;
   }
+  * {
+    box-sizing: border-box;
+  }
   header,
   main, footer{width: 85%;
     margin: 0 auto;}
@@ -229,6 +232,79 @@ footer {
       }
       
       /* about page done */
+      /* contact us page */
+
+      .form-wrapper input[type="submit"] {
+        color: #191b1a;
+        background-color: #FE9C00;
+        padding: 12px 20px;
+        border: 0px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .form-wrapper input[type="submit"]:hover {
+        background-color: #191b1a;
+        color: #FE9C00;
+      }
+      
+      /* ===============
+         STRUCTURE
+         =============== */
+      
+      .form-wrapper-button {
+        display: flex;
+        justify-content: space-between;
+      } 
+      .form-wrapper input{
+        display: flex;
+        flex-direction: column;
+      }
+      .form-wrapper input,
+         .form-wrapper select,
+         .form-wrapper textarea {
+        font-size: 1.6rem;
+      }
+      
+      .form-wrapper input[type="text"],
+      .form-wrapper select,
+      .form-wrapper textarea {
+        max-width: auto;
+        width: 100%;
+        padding: 12px;
+        border: 0px;
+        border-radius: 4px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      .form-wrapper textarea {
+        font-family: sans-serif;
+      }
+      
+      .form-label-required {
+        font-size: 1rem;
+        color: #FE9C00;
+      }
+      .form-label-optional {
+        font-size: 1rem;
+        color: whitesmoke;
+      }
+      .form-wrapper h2 {
+        color: whitesmoke;
+      }
+      .form-wrapper label {
+        color: whitesmoke;
+      }
+      .form-wrapper {
+          border-radius: 5px;
+            background-color: #191b1a;
+            max-width:max-content;
+            padding: 20px;
+            margin: 50px auto;
+        }
+      
   @media only screen and (min-width: 1024px) {
     .navbar {
         display: flex;
