@@ -37,6 +37,16 @@
       </nav>
     </header>
     <main>
+
+<section>
+    <div class="slideshow-wrapper">
+    
+            <img class="slideshow-slides" src="/Users/aranpc/Desktop/Capston/Capston-309-DesignSystem/Design System/Images/jonas-jacobsson-q5ZDZPc7Ksc-unsplash.jpg" alt="images one" style="width: 100%" />
+            <img class="slideshow-slides" src="/Users/aranpc/Desktop/Capston/Capston-309-DesignSystem/Design System/Images/marat-mazitov-WzStSnhZbfs-unsplash.jpg" alt="images two" style="width: 100%" />
+            <img class="slideshow-slides" src="/Users/aranpc/Desktop/Capston/Capston-309-DesignSystem/Design System/Images/varla-scooter-ZU1GPMA1tMw-unsplash.jpg" alt="images three" style="width: 100%" />
+    </div>
+      </section>
+    
         <h1>RunRentals</h1>
 <h2>Intro:</h2>
 <p>At RunRentals, we are dedicated to making travel in cities easier and more enjoyable for tourists. Our mission is to provide a fun and convenient mode of transportation that allows visitors to explore their destinations at their own pace. With our range of electric scooters, you can see the sights, experience the local culture, and create memories that will last a lifetime.</p>
@@ -127,6 +137,26 @@ Our goal is to create a future where cities are less congested, and the air is c
             x.style.display = "block";
           }
         }
+      </script>
+      <script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slideshow-slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {
+    myIndex = 1;
+  }
+  x[myIndex - 1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
       </script>
     
 </body>
