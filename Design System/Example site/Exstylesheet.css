@@ -180,6 +180,19 @@ footer {
     .footer-row-second-col-links, .footer-row-second-col-connect {
       margin: 50px 0px;
     }
+    /* about page */
+    
+      .about-content-pessage1-img {
+        height: 300px; width: 300px; margin: auto; background-color: #191b1a;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+      }
+      
+      
+      /* about page done */
   @media only screen and (min-width: 1024px) {
     .navbar {
         display: flex;
