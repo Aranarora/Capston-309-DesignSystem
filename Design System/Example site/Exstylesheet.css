@@ -94,10 +94,14 @@ html {
         transition: all 0.2s ease-in-out;
       }
       .nav-button:hover{background-color: #191b1a;
+      }
+      .nav-button:hover a{
         color: #FE9C00;
       }
       .nav-button:active {
         background-color: #191b1a;
+      }
+      .nav-button:active a{
         color: #FE9C00;
       }
   @media only screen and (min-width: 1024px) {
