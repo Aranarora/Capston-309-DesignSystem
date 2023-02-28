@@ -203,6 +203,7 @@ footer {
     overflow-y: scroll;
 }
       #info {
+        width: 100%;
         border-collapse: collapse;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
