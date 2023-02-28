@@ -363,6 +363,31 @@ footer {
       }
       .cards-btn:hover{ background-color: #191b1a;
         color: #FE9C00;}
+
+   .fa-info-circle {
+     position: relative;
+     margin-left: 10px;
+   }
+   
+   .fa-info-circle .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: #191b1a;
+     color: whitesmoke;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+     
+     /* Position the tooltip */
+     position: absolute;
+     bottom: 100%;
+     left: 50%;
+     margin-left: -60px;
+   }
+   .fa-info-circle:hover .tooltiptext {
+     visibility: visible;
+   }
+    
       
   @media only screen and (min-width: 1024px) {
 /* home page */
