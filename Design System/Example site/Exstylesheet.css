@@ -181,7 +181,10 @@ footer {
       margin: 50px 0px;
     }
     /* about page */
-    
+    .about-content-pessage1 {
+        display: flex;
+        flex-direction: column;
+      }
       .about-content-pessage1-img {
         height: 300px; width: 300px; margin: auto; background-color: #191b1a;
         border-radius: 20px;
@@ -190,7 +193,10 @@ footer {
         align-content: center;
         overflow: hidden;
       }
-      
+      .about-content-pessage1-div1 {
+        width: 100%;
+        justify-content: center;
+      }
       
       /* about page done */
   @media only screen and (min-width: 1024px) {
