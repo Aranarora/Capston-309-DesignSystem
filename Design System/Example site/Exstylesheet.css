@@ -143,4 +143,30 @@ footer {
         display: inline;
       }
       .navbar a.icon {display: none;}
+
+      
+      footer {
+      margin-top: 5%;
+        margin-left: 160px;
+    clear: both;
+    width: calc(100% - 160px);
+    overflow: auto;
+    background-color: #191b1a;
+     }
+     
+     .footer-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .footer-row-first-col-logo{
+        flex-grow: 0;
+      }
+      .footer-row-second-col-links{
+        flex-grow: 2;
+      }
+      .footer-row-second-col-connect{
+        flex-grow: 2;
+      }
+
   }
