@@ -128,13 +128,13 @@
       align-items: center;">
       <div class="codz" style="display: flex; flex-direction: row;
       align-items: center;"><code style=" display:none">
-     &lt;div class=&quot;nav-form-wrapper&quot;&gt;
+     &lt;div class=&quot;form-wrapper&quot;&gt;
      &lt;h2&gt;Requiered fields with placeholders&lt;/h2&gt;
      &lt;form
        method=&quot;post&quot;
        action=&quot;link of the action&quot;&gt;
         &lt;label for=&quot;field-2&quot;&gt;
-          Field  One&lt;span class=&quot;nav-form-label-required&quot;
+          Field  One&lt;span class=&quot;form-label-required&quot;
            &gt;* (required)&lt;/span&gt;&lt;/label&gt;
        &lt;input
          type=&quot;text&quot;
@@ -144,7 +144,7 @@
          required/&gt;
 
        &lt;label for=&quot;field-2&quot;
-         &gt;Field Two&lt;span class=&quot;nav-form-label-required&quot;
+         &gt;Field Two&lt;span class=&quot;form-label-required&quot;
            &gt;* (required)&lt;/span&gt;&lt;/label&gt;
        &lt;input
          type=&quot;text&quot;
@@ -154,7 +154,7 @@
          required/&gt;
 
         &lt;label for=&quot;field-3&quot;
-         &gt;Field Two&lt;span class=&quot;nav-form-label-optional&quot;
+         &gt;Field Two&lt;span class=&quot;form-label-optional&quot;
            &gt;* (optional)&lt;/span
          &gt;&lt;/label&gt;
        &lt;input
@@ -162,7 +162,7 @@
          id=&quot;field-3&quot;
          name=&quot;placeholder-2&quot;
          placeholder=&quot;Ex: Placeholder Three&quot;/&gt;
-       &lt;div class=&quot;nav-form-wrapper-button&quot;&gt;
+       &lt;div class=&quot;form-wrapper-button&quot;&gt;
          &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
        &lt;/div&gt;
      &lt;/form&gt;
@@ -172,6 +172,9 @@
       </div>
       <div class="codz" style="display: flex; flex-direction: row;
       align-items: center;"><code style=" display:none">
+      * {
+        box-sizing: border-box;
+      }
       .form-wrapper input[type="submit"] {
         color: #191b1a;
         background-color: #FE9C00;
