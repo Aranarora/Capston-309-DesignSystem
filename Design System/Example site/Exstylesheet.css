@@ -306,6 +306,32 @@ footer {
         }
       
   @media only screen and (min-width: 1024px) {
+/* home page */
+.home-vision-maindiv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    object-fit: fill;
+    justify-content: space-between;
+    margin: 5% 0%;
+  }
+  .home-vision-div1 {
+    order: 0;
+  }
+  .home-vision-div2 {
+    order: 1;
+    position: relative;
+    padding-bottom: 0; /* 16:9 */
+    height: fit-content;
+    margin: 0;
+  }
+  .home-vision-video {
+  background-color: #191b1a;
+  position: relative;
+  width: 560px;
+  height: 315px;
+  }
+  /* nav page */
     .navbar {
         display: flex;
         justify-content: space-between;
