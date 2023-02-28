@@ -300,7 +300,7 @@ footer {
       .form-wrapper {
           border-radius: 5px;
             background-color: #191b1a;
-            max-width:max-content;
+            max-width: 100%;
             padding: 20px;
             margin: 50px auto;
         }
@@ -350,5 +350,9 @@ footer {
   }
   .about-content-pessage1-div1 {
     width: 70%;
+  }
+  /* form page */
+  .form-wrapper {
+      max-width: 70%;
   }
   }
