@@ -237,5 +237,12 @@ footer {
       .footer-row-second-col-connect{
         flex-grow: 2;
       }
-
+/* about page */
+.about-content-pessage1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-content-pessage1-div1 {
+    width: 70%;
+  }
   }
