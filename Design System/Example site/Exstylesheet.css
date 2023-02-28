@@ -104,6 +104,31 @@ html {
       .nav-button:active a{
         color: #FE9C00;
       }
+      /* Footer of all pages */
+footer {
+    margin-top: 10%;
+      clear: both;
+      width: 100%;
+      overflow: auto;
+      background-color: #191b1a;
+      text-align: center;
+    }
+    footer a {
+      color: whitesmoke;
+    }
+    footer h3{color: whitesmoke;}
+    .footer-row {
+      margin: 0% 1%;
+      color: whitesmoke;
+      justify-content: space-between;
+    }
+    
+    .footer-row-first-col-logo {
+      margin: 30px 0px;
+    }
+    .footer-row-second-col-links, .footer-row-second-col-connect {
+      margin: 50px 0px;
+    }
   @media only screen and (min-width: 1024px) {
     .navbar {
         display: flex;
