@@ -463,14 +463,14 @@ h2{font-size: 2.8rem;}
   color: whitesmoke;
 }
 .containers-margin{
-  border-top: 32px solid #191b1a;
-  border-bottom: 32px solid #191b1a;
+  border-top: 24px solid #191b1a;
+  border-bottom: 24px solid #191b1a;
     background-color: #FE9C00;
     color: whitesmoke;
 }
 .div-margin{
-  border-top: 48px solid #191b1a;
-  border-bottom: 48px solid #191b1a;;
+  border-top: 24px solid #191b1a;
+  border-bottom: 24px solid #191b1a;;
     background-color: #FE9C00;
     color: whitesmoke;
 }
