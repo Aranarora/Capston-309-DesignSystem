@@ -192,6 +192,8 @@ footer {
     }
     /* about page */
     .about-content-pessage1 {
+        padding: 16px 0px;
+        margin: 24px 0px;
         display: flex;
         flex-direction: column;
       }
@@ -209,6 +211,8 @@ footer {
       }
 /* table */
 .table{
+    padding: 16px 0px;
+    margin: 24px 0px;
     overflow-y: scroll;
 }
       #info {
