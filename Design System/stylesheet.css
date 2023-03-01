@@ -33,6 +33,7 @@ h2{font-size: 2.8rem;}
   a:hover { color: #FE9C00;}
   
   ul, ol{font-family: 'Montserrat', sans-serif;
+    margin-left: -40px;
     font-weight: 600;
     font-size: 1.6rem;}
     ul a:hover { color: #FE9C00;}
