@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
   }
   header,
-  main, footer{width: 85%;
+  main, footer, nav{width: 85%;
     margin: 0 auto;}
   body {
     margin: 0%;
