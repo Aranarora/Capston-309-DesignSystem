@@ -519,11 +519,12 @@ h2{font-size: 2.8rem;}
       align-items: center;
       
   }
-  .firstcard .allcards .image{background-color: #191b1a;
-    color: whitesmoke;
+  .firstcard .allcards .cardsimage{background-color: #191b1a;
     text-align: center;
     width:100%;
     height: 262.50px;}
+    .firstcard .allcards .cardsimage p{color: whitesmoke; margin: auto;}
+
   .firstcard .allcards .cards {
     box-sizing: border-box;
     width: 350px;
@@ -541,16 +542,16 @@ h2{font-size: 2.8rem;}
   width: min-content;
       
   }
-  .secondcard .allcards .image{background-color: #191b1a;
-    color: whitesmoke;
+  .secondcard .allcards .cardsimage{background-color: #191b1a;
     text-align: center;
-    width: 350px;
-    height: 250px;}
+    width:100%;
+    height: 262.50px;}
   .secondcard .allcards .cards {
     box-sizing: border-box;
     width: 350px;
     margin-right: 30px;
   }
+  .secondcard .allcards .cardsimage p{color: whitesmoke; margin: auto;}
 /* Footer of all pages */
 footer {
   margin-top: 10%;
