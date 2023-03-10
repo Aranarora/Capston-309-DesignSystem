@@ -311,6 +311,9 @@ h2{font-size: 2.8rem;}
     color: #FE9C00;
   }
   /* table page */
+  .table{
+    overflow-y: scroll;
+  }
   #info {
     border-collapse: collapse;
     width: 100%;
