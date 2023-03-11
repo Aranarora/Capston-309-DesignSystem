@@ -598,6 +598,16 @@ h2{font-size: 2.8rem;}
     margin-right: 30px;
   }
   .secondcard .allcards .cardsimage p{color: whitesmoke; margin: auto;}
+  .cards-btn{background-color: #FE9C00;
+    color: #191b1a;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin:24px 0px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;}
 /* Footer of all pages */
 footer {
   margin-top: 10%;
