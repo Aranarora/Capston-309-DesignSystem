@@ -101,7 +101,7 @@ h2{font-size: 2.8rem;}
     margin: 45px 15px;
     
   }
-  .navbar a:hover{background-color: #FE9C00;
+  .active, .navbar a:hover{background-color: #FE9C00;
   color: black;} 
 .navbar a:active {
   background-color: #FE9C00;
