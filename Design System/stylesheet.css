@@ -311,7 +311,7 @@ h2{font-size: 2.8rem;}
     color: #FE9C00;
   }
   /* table page */
-  #info-tabledesk{
+  #info-tabledesk, #info-tablemobile {
     border-collapse: collapse;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -341,7 +341,47 @@ h2{font-size: 2.8rem;}
     background-color: #FE9C00;
     color: whitesmoke;
   }
+  /* mobiletable */
+  #info-tablemobile td{
+    border: 1px solid #191b1a;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  #info-tablemobile tr:nth-child(even){background-color: #f2f2f2;}
   
+  #info-tablemobile tr:hover {background-color: #191b1a;
+  color: whitesmoke;}
+  
+  #info-tablemobile {
+    border: 0;
+  }
+  #info-tablemobile caption {
+    font-size: 2rem;}
+  .tablemobile{
+  
+    margin-left: auto;
+    margin-right: auto;
+    width:max-content;}
+
+  #info-tablemobile tr {
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  #info-tablemobile td {
+    display: block;
+    text-align: right;
+  }
+  
+  #info-tablemobile td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    color: #FE9C00;
+    text-transform: uppercase;
+  }
+
   /* form page */
   .nav-form-wrapper input[type="submit"] {
     color: #191b1a;
