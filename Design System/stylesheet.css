@@ -47,10 +47,14 @@ h2{font-size: 2.8rem;}
   }
 
   button {
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
     border: none;
   border-radius: 5px;
     padding: 12px 24px;
-    margin-left: 12px;
+    margin: 24px 0px 24px 12px;
     color:#191b1a;
     background-color: #FE9C00;
   }
