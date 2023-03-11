@@ -83,10 +83,6 @@ h2{font-size: 2.8rem;}
     display: block;
     color: whitesmoke;
   }
-  .navbar #menuExLink a:hover  { 
-    color: #FE9C00;
-
-  }
   .navbar #menu, #ExLink, #menuLogo {
     display: none;
   }
