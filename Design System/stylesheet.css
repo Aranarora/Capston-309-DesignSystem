@@ -311,34 +311,37 @@ h2{font-size: 2.8rem;}
     color: #FE9C00;
   }
   /* table page */
-  .table{
-    overflow-y: scroll;
-  }
-  #info {
+  #info-tabledesk{
     border-collapse: collapse;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
+  /* desktable */
+
+  .tabledesk{
+    overflow-y: scroll;
+  }
   
-  #info td, #info th {
+  #info-tabledesk td, th {
     border: 1px solid #191b1a;
     padding: 8px;
     font-size: 16px;
   }
+
+  #info-tabledesk tr:nth-child(even){background-color: #f2f2f2;}
   
-  #info tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #info tr:hover {background-color: #191b1a;
+  #info-tabledesk tr:hover {background-color: #191b1a;
   color: whitesmoke;}
   
-  #info th {
+  #info-tabledesk th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #FE9C00;
     color: whitesmoke;
   }
+  
   /* form page */
   .nav-form-wrapper input[type="submit"] {
     color: #191b1a;
@@ -737,5 +740,4 @@ height: 315px;
       .footer-row-second-col-connect{
         flex-grow: 2;
       }
-
-  }
+}
