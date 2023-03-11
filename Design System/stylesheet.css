@@ -643,8 +643,8 @@ footer {
   .codz{align-items: center;
     display: flex; flex-direction: row; margin-right: 24px;
   }
-  .codzholder{align-items: center;
-    display: flex; flex-direction: row;
+  .codzholder{
+    display: flex; flex-direction: column;
   }
   @media only screen and (min-width: 1024px) {
 .topNav{
@@ -803,4 +803,8 @@ height: 315px;
       .footer-row-second-col-connect{
         flex-grow: 2;
       }
+       /* copy code function */
+  .codzholder{
+    display: flex; flex-direction: row;
+  }
 }
