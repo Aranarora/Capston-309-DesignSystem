@@ -106,7 +106,93 @@
   
 </table>
 </div>
+<br>
+    <details>
+      <summary>Code behind Example:</summary>
+      <br>
 
+      <script src="https://gist.github.com/Aranarora/e1387458233dd9b47c1cf68007efefc1.js"></script>
+<div style="display: flex; flex-direction: row;
+align-items: center;">
+<div class="codz" style="display: flex; flex-direction: row;
+align-items: center;"><code style=" display:none">
+&lt;table id=&quot;info&quot;&gt;
+&lt;caption&gt;Information Table&lt;/caption&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td data-label=&quot;Name&quot;&gt;Name 1&lt;/td&gt;
+        &lt;td data-label=&quot;Position&quot;&gt;Job 1&lt;/td&gt;
+        &lt;td data-label=&quot;Contact&quot;&gt;name1@runrantals.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 2&lt;/td&gt;
+        &lt;td data-label=&quot;Position&quot;&gt;Job 2&lt;/td&gt;
+        &lt;td data-label=&quot;Contact&quot;&gt;name2@runrantals.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 3&lt;/td&gt;
+        &lt;td data-label=&quot;Position&quot;&gt;Job 3&lt;/td&gt;
+        &lt;td data-label=&quot;Contact&quot;&gt;name3@runrantals.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 4&lt;/td&gt;
+        &lt;td data-label=&quot;Position&quot;&gt;Job 4&lt;/td&gt;
+        &lt;td data-label=&quot;Contact&quot;&gt;name4@runrantals.com&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</code>
+<h3>Html:</h3>
+</div>
+<div class="codz" style="display: flex; flex-direction: row;
+align-items: center;"><code style=" display:none">
+#info {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#info td{
+  border: 1px solid #191b1a;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#info tr:nth-child(even){background-color: #f2f2f2;}
+
+#info tr:hover {background-color: #191b1a;
+color: whitesmoke;}
+
+#info {
+    border: 0;
+  }
+  #info caption {
+    font-size: 2rem;}
+
+  #info tr {
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  #info td {
+    display: block;
+    text-align: right;
+  }
+  
+  #info td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    color: #FE9C00;
+    text-transform: uppercase;
+  }
+
+</code>
+<h3>Css:</h3>
+</div>
+</div>
+    </details>
   <h3>This is how it looks on DeskTop/Big screens:</h3>
 <div class="tabledesk">
 <table id="info-tabledesk">
