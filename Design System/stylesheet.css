@@ -49,8 +49,8 @@ h2{font-size: 2.8rem;}
   button {
     border: none;
   border-radius: 5px;
-    padding: 10px 20px;
-    margin-right: 20px;
+    padding: 12px 24px;
+    margin-left: 12px;
     color:#191b1a;
     background-color: #FE9C00;
   }
@@ -622,6 +622,15 @@ footer {
   }
   .footer-row-second-col-links, .footer-row-second-col-connect {
     margin: 50px 0px;
+  }
+
+
+  /* copy code function */
+  .codz{align-items: center;
+    display: flex; flex-direction: row; margin-right: 24px;
+  }
+  .codzholder{align-items: center;
+    display: flex; flex-direction: row;
   }
   @media only screen and (min-width: 1024px) {
 .topNav{
