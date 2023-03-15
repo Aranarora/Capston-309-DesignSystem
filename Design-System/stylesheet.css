@@ -418,7 +418,6 @@ h2{font-size: 2.8rem;}
   .nav-form-wrapper input[type="text"],
   .nav-form-wrapper select,
   .nav-form-wrapper textarea {
-    max-width: auto;
     width:100%;
     padding: 12px;
     border: 0px;
