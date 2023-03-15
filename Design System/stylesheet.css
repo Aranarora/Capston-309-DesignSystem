@@ -342,7 +342,7 @@ h2{font-size: 2.8rem;}
     color: whitesmoke;
   }
   /* mobiletable */
-  #info-tablemobile td{
+  #info-tablemobile th{
     border: 1px solid #191b1a;
     padding: 8px;
     font-size: 16px;
@@ -369,12 +369,12 @@ h2{font-size: 2.8rem;}
     margin-bottom: 12px;
   }
   
-  #info-tablemobile td {
+  #info-tablemobile th {
     display: block;
     text-align: right;
   }
   
-  #info-tablemobile td::before {
+  #info-tablemobile th::before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
