@@ -118,24 +118,24 @@
 &lt;caption&gt;Information Table&lt;/caption&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-        &lt;td data-label=&quot;Name&quot;&gt;Name 1&lt;/td&gt;
-        &lt;td data-label=&quot;Position&quot;&gt;Job 1&lt;/td&gt;
-        &lt;td data-label=&quot;Contact&quot;&gt;name1@runrantals.com&lt;/td&gt;
+        &lt;th data-label=&quot;Name&quot;&gt;Name 1&lt;/th&gt;
+        &lt;th data-label=&quot;Position&quot;&gt;Job 1&lt;/th&gt;
+        &lt;th data-label=&quot;Contact&quot;&gt;name1@runrantals.com&lt;/th&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-        &lt;td scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 2&lt;/td&gt;
-        &lt;td data-label=&quot;Position&quot;&gt;Job 2&lt;/td&gt;
-        &lt;td data-label=&quot;Contact&quot;&gt;name2@runrantals.com&lt;/td&gt;
+        &lt;th scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 2&lt;/th&gt;
+        &lt;th data-label=&quot;Position&quot;&gt;Job 2&lt;/th&gt;
+        &lt;th data-label=&quot;Contact&quot;&gt;name2@runrantals.com&lt;/th&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-        &lt;td scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 3&lt;/td&gt;
-        &lt;td data-label=&quot;Position&quot;&gt;Job 3&lt;/td&gt;
-        &lt;td data-label=&quot;Contact&quot;&gt;name3@runrantals.com&lt;/td&gt;
+        &lt;th scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 3&lt;/th&gt;
+        &lt;th data-label=&quot;Position&quot;&gt;Job 3&lt;/td&gt;
+        &lt;th data-label=&quot;Contact&quot;&gt;name3@runrantals.com&lt;/th&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-        &lt;td scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 4&lt;/td&gt;
-        &lt;td data-label=&quot;Position&quot;&gt;Job 4&lt;/td&gt;
-        &lt;td data-label=&quot;Contact&quot;&gt;name4@runrantals.com&lt;/td&gt;
+        &lt;th scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 4&lt;/th&gt;
+        &lt;th data-label=&quot;Position&quot;&gt;Job 4&lt;/th&gt;
+        &lt;th data-label=&quot;Contact&quot;&gt;name4@runrantals.com&lt;/th&gt;
       &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -150,7 +150,7 @@
   font-weight: 600;
 }
 
-#info td{
+#info th{
   border: 1px solid #191b1a;
   padding: 8px;
   font-size: 16px;
@@ -172,12 +172,12 @@ color: whitesmoke;}
     margin-bottom: 12px;
   }
   
-  #info td {
+  #info th {
     display: block;
     text-align: right;
   }
   
-  #info td::before {
+  #info th::before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
