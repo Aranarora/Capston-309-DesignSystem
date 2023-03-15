@@ -294,7 +294,6 @@ footer {
       .form-wrapper input[type="text"],
       .form-wrapper select,
       .form-wrapper textarea {
-        max-width: auto;
         width: 100%;
         padding: 12px;
         border: 0px;
