@@ -36,11 +36,18 @@
           </a>
       </nav>
       <div>
-        <div class="slideshow-wrapper">
+        <div class="slideshow-wrapper-desk">
         
-                <img class="slideshow-slides" src="Images/Artboard 1.jpg" loading="lazy" alt="images one" style="width: 100%" />
-                <img class="slideshow-slides" src="Images/Artboard 2.jpg" loading="lazy" alt="images two" style="width: 100%" />
-                <img class="slideshow-slides" src="Images/Artboard 3.jpg" loading="lazy"  alt="images three" style="width: 100%" />
+                <img class="slideshow-slides-desk" src="Images/Artboard 1.jpg" loading="lazy" alt="images one" style="width: 100%" />
+                <img class="slideshow-slides-desk" src="Images/Artboard 2.jpg" loading="lazy" alt="images two" style="width: 100%" />
+                <img class="slideshow-slides-desk" src="Images/Artboard 3.jpg" loading="lazy"  alt="images three" style="width: 100%" />
+              
+        </div>
+        <div class="slideshow-wrapper-mob">
+          <img class="slideshow-slides-mob" src="Images/Artboard 1m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
+                <img class="slideshow-slides-mob" src="Images/Artboard 2m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
+                <img class="slideshow-slides-mob" src="Images/Artboard 3m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
+
         </div>
       </div>
     </header>
@@ -148,7 +155,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("slideshow-slides");
+  var x = document.getElementsByClassName("slideshow-slides-mob");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
@@ -161,6 +168,26 @@ function carousel() {
 }
 
       </script>
+      <script>
+
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("slideshow-slides-desk");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {
+            myIndex = 1;
+          }
+          x[myIndex - 1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        
+              </script>
     
 </body>
 </html>
