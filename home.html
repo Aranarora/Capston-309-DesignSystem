@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="Exstylesheet.css" />
     <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,18 +36,11 @@
           </a>
       </nav>
       <div>
-        <div class="slideshow-wrapper-desk">
+        <div class="slideshow-wrapper">
         
-                <img class="slideshow-slides-desk" src="Images/Artboard 1.jpg" loading="lazy" alt="images one" style="width: 100%" />
-                <img class="slideshow-slides-desk" src="Images/Artboard 2.jpg" loading="lazy" alt="images two" style="width: 100%" />
-                <img class="slideshow-slides-desk" src="Images/Artboard 3.jpg" loading="lazy"  alt="images three" style="width: 100%" />
-              
-        </div>
-        <div class="slideshow-wrapper-mob">
-          <img class="slideshow-slides-mob" src="Images/Artboard 1m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
-                <img class="slideshow-slides-mob" src="Images/Artboard 2m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
-                <img class="slideshow-slides-mob" src="Images/Artboard 3m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
-
+                <img class="slideshow-slides" src="Images/Artboard 1m.jpg" loading="lazy" alt="images one" style="width: 100%" />
+                <img class="slideshow-slides" src="Images/Artboard 2m.jpg" loading="lazy" alt="images two" style="width: 100%" />
+                <img class="slideshow-slides" src="Images/Artboard 3m.jpg" loading="lazy"  alt="images three" style="width: 100%" />
         </div>
       </div>
     </header>
@@ -138,48 +131,17 @@
           </div>
         </div>
       </footer>
-      <script>
-
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slideshow-slides-mob");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {
-    myIndex = 1;
-  }
-  x[myIndex - 1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-
-      </script>
-      <script>
-
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("slideshow-slides-desk");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
           }
-          myIndex++;
-          if (myIndex > x.length) {
-            myIndex = 1;
-          }
-          x[myIndex - 1].style.display = "block";
-          setTimeout(carousel, 2000); // Change image every 2 seconds
         }
-        
-              </script>
-                    <script src = "code.js"></script>
-
+      </script>
+      <script src = "code.js"></script>
     
 </body>
 </html>
