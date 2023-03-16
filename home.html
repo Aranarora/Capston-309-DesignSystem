@@ -5,6 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="Exstylesheet.css" /> -->
+    <style type="text/css">
+      header {
+        background-color: #191b1a;
+        overflow: hidden;
+        width: 100%;
+        height: max-content;
+        position: relative;
+      }
+      h1 {font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #191b1a;
+        font-size: 3.5rem;
+        }
+        p, a, div{font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: #191b1a;}
+      .navbar {
+    background-color: #191b1a;
+    position: relative;
+  }
+  
+  .navbar #myLinks {
+    display: none;
+  }
+  
+  .navbar a {
+    padding: 3%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: block;
+  }
+  
+  .navbar a.icon {
+    background: #191b1a;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3% 5%;
+  margin: 53px 15px;
+  }
+  
+  .active, .navbar a:hover{background-color: #FE9C00;
+    color: black;} 
+  .navbar a:active {
+    background-color: #FE9C00;
+    color: black;
+  }
+  .slideshow-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #191b1a;
+  }
+  .slideshow-slides{
+    border: 5px solid #FE9C00;
+  }
+  .slideshow-slides>.slideshow-slides {
+    position: absolute;
+    transition: all 500ms ease-in-out;
+  }
+
+    </style>
     <link rel="preload" href="Exstylesheet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
