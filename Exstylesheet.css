@@ -119,6 +119,20 @@ html {
     color: #191b1a;
   }
   /* Home page */
+  .slideshow-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #191b1a;
+  }
+  .slideshow-slides{
+    border: 5px solid #FE9C00;
+  }
+  .slideshow-slides>.slideshow-slides {
+    position: absolute;
+    transition: all 500ms ease-in-out;
+  }
+
 .home-vision-maindiv{display: flex;
     flex-direction: column;
 padding: 16px 0px;
