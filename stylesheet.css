@@ -105,6 +105,10 @@ button:active {
     color: #FE9C00;
 }
 
+.content {
+    width: 500px;
+}
+
 
 /* Heading of all pages */
 
@@ -164,16 +168,18 @@ header {
 
 /* Home page */
 
-.home-vision-maindiv {
+.sidebyside-maindiv {
     display: flex;
     flex-direction: column;
+    padding: 16px 0px;
+    margin: 24px 0px;
 }
 
-.home-vision-div1 {
+.sidebyside-div1 {
     order: 0;
 }
 
-.home-vision-div2 {
+.sidebyside-div2 {
     position: relative;
     padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
     margin: 4% 0%;
@@ -952,24 +958,24 @@ footer h3 {
         margin-right: 50px;
         width: calc(100% - 300px);
     }
-    .home-vision-maindiv {
+    .sidebyside-maindiv {
         display: flex;
         flex-direction: row;
-        position: relative;
-        object-fit: fill;
         justify-content: space-between;
-        margin: 5% 0%;
+        margin: 24px 0px;
     }
-    .home-vision-div1 {
+    .sidebyside-div1 {
         order: 0;
+        margin-right: 24px;
+        margin: auto 24px auto 0px;
     }
-    .home-vision-div2 {
+    .sidebyside-div2 {
         order: 1;
         position: relative;
         padding-bottom: 0;
         /* 16:9 */
         height: fit-content;
-        margin: 0;
+        margin: auto;
     }
     .home-vision-video {
         background-color: #191b1a;

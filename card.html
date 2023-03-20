@@ -1,127 +1,125 @@
 <!DOCTYPE html>
 <html lang="zxx">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
-        <link rel="stylesheet" href="stylesheet.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <title>RunRentals-DesignSystem/card</title>
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>RunRentals-DesignSystem/card</title>
+</head>
+
 <body>
-  <header>
-    <nav>
-        <!-- log from iconscout (https://iconscout.com/) 
+    <header>
+        <nav>
+            <!-- log from iconscout (https://iconscout.com/) 
         I modified the colour and add the brand name according to my needs
       as my project requirements.-->
-        <div class="navbar">
-            <div class="topNav">
-                <div id="topNavLogo">
-                <a href="index.html"
-                style="width: 120px"
-                ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-            </div>
-              <div id="ExLink">
-                <a href="home.html">Example</a>
-              </div>
-            
-      
-            </div>
-        <div class="sideNav">
-          <div id="menu">
-            <a href="index.html"
-            id="menuLogo" ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-              <div id="menuExLink">
-            <a href="home.html">Example</a></div>
-            <p>Guidelines</p>
-            <a href="typography.html">Typography</a>
-            <a href="color.html">Color</a>
-            <a href="spacing.html">Spacing</a>
-            <p>Components</p>
-            <a href="card.html" class="active">Card</a>
-            <a href="carousel.html">Carousel</a>
-            <a href="form.html">Form</a>
-            <a href="images.html">Images</a>
-            <a href="listgroup.html">List Group</a>
-            <a href="navigation.html">Navigation</a>
-            <a href="table.html">Table</a>
-            <a href="tooltips.html">Tooltips</a>
-          </div>
-          <!-- create hamburger icon function help taken from w3school
+            <div class="navbar">
+                <div class="topNav">
+                    <div id="topNavLogo">
+                        <a href="index.html" style="width: 120px"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </div>
+                    <div id="ExLink">
+                        <a href="home.html">Example</a>
+                    </div>
+
+
+                </div>
+                <div class="sideNav">
+                    <div id="menu">
+                        <a href="index.html" id="menuLogo"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                        <div id="menuExLink">
+                            <a href="home.html">Example</a></div>
+                        <p>Guidelines</p>
+                        <a href="typography.html">Typography</a>
+                        <a href="color.html">Color</a>
+                        <a href="spacing.html">Spacing</a>
+                        <p>Components</p>
+                        <a href="card.html" class="active">Card</a>
+                        <a href="carousel.html">Carousel</a>
+                        <a href="form.html">Form</a>
+                        <a href="images.html">Images</a>
+                        <a href="listgroup.html">List Group</a>
+                        <a href="navigation.html">Navigation</a>
+                        <a href="table.html">Table</a>
+                        <a href="tooltips.html">Tooltips</a>
+                    </div>
+                    <!-- create hamburger icon function help taken from w3school
           modified it according my needs, its not follow the same way
         1.change the padding style
       2. margins
     rather than function every thing i change as it works for my project -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-          </div>
-              </nav>
-</header>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
-        <h1>Card</h1>
-        <p>A "card" is a compact rectangular unit representing a single idea. Cards typically contain interactive elements such as text, links, buttons, or images. Still, the primary purpose is to provide a brief overview of a topic and allow for easy exploration by clicking through to more information on another page.</p><p><b>The cards present information succinctly and offer a quick way to delve deeper into the subject.</b></p>
-
+        <div class="content">
+            <h1>Card</h1>
+            <p>A "card" is a compact rectangular unit representing a single idea. Cards typically contain interactive elements such as text, links, buttons, or images. Still, the primary purpose is to provide a brief overview of a topic and allow for easy
+                exploration by clicking through to more information on another page.</p>
+            <p><b>The cards present information succinctly and offer a quick way to delve deeper into the subject.</b></p>
+        </div>
         <h2>Example</h2>
         <div class="codepenDiv">
-          <h3>This is how it looks on small screens:</h3>
-        <div class="firstcard">
-          <div class="allcards">
-            <article class="cards">
-              <div class="cardsimage"><p>Image</p></div>
-              <div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <button class="cards-btn">Learn more</button>
-              </div>
-            </article>
-            <article class="cards">
-              <div class="cardsimage"><p>Image</p></div>
-              <div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-  
-                <button class="cards-btn">Learn more</button>
-              </div>
-            </article>
-            <article class="cards">
-              <div class="cardsimage"><p>Image</p></div>
-              <div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <button class="cards-btn">Learn more</button>
-              </div>
-            </article>
-          </div>
-        </div>
-        <br>    
+            <h3>This is how it looks on small screens:</h3>
+            <div class="firstcard">
+                <div class="allcards">
+                    <article class="cards">
+                        <div class="cardsimage">
+                            <p>Image</p>
+                        </div>
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <button class="cards-btn">Learn more</button>
+                        </div>
+                    </article>
+                    <article class="cards">
+                        <div class="cardsimage">
+                            <p>Image</p>
+                        </div>
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+
+                            <button class="cards-btn">Learn more</button>
+                        </div>
+                    </article>
+                    <article class="cards">
+                        <div class="cardsimage">
+                            <p>Image</p>
+                        </div>
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <button class="cards-btn">Learn more</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <br>
             <details>
-              <summary>Code behind Example:</summary>
-              <br>
-        <script src="https://gist.github.com/Aranarora/d34ff2adca731f53cc0d4a43099e06aa.js"></script>
-        <div class="codzholder">
-      <div class="codz"><code style=" display:none">
+                <summary>Code behind Example:</summary>
+                <br>
+                <script src="https://gist.github.com/Aranarora/d34ff2adca731f53cc0d4a43099e06aa.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
      &lt;div class=&quot;cardssection&quot;&gt;
      &lt;div class=&quot;allcards&quot;&gt;
        &lt;article class=&quot;cards&quot;&gt;
@@ -158,9 +156,9 @@
      &lt;/div&gt;
    &lt;/div&gt;
       </code>
-      <h3>Html:</h3>
-      </div>
-      <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
       .cardssection {
         width: 100%;
       }
@@ -193,56 +191,62 @@
       .cards-btn:hover{ background-color: #191b1a;
         color: #FE9C00;}
       </code>
-      <h3>Css:</h3>
-      </div>
-      </div>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
             </details>
         </div>
 
         <div class="codepenDiv">
-          <h3>This is how it looks on DeskTop/Big screens:</h3>
-        <div class="secondcard">
-          <div class="allcards">
-            <article class="cards">
-              <div class="cardsimage"><p>Image</p></div>
-              <div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <button class="cards-btn">Learn more</button>
-              </div>
-            </article>
-            <article class="cards">
-              <div class="cardsimage"><p>Image</p></div>
-              <div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-  
-                <button class="cards-btn">Learn more</button>
-              </div>
-            </article>
-            <article class="cards">
-              <div class="cardsimage"><p>Image</p></div>
-              <div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <button class="cards-btn">Learn more</button>
-              </div>
-            </article>
-          </div>
-        </div>
-        <br>    
-        <details>
-          <summary>Code behind Example:</summary>
-          <br>
-          <script src="https://gist.github.com/Aranarora/912451d8fbc997af6ef5f08d3c010d2b.js"></script>
-    <div class="codzholder">
-  <div class="codz"><code style=" display:none">
+            <h3>This is how it looks on DeskTop/Big screens:</h3>
+            <div class="secondcard">
+                <div class="allcards">
+                    <article class="cards">
+                        <div class="cardsimage">
+                            <p>Image</p>
+                        </div>
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <button class="cards-btn">Learn more</button>
+                        </div>
+                    </article>
+                    <article class="cards">
+                        <div class="cardsimage">
+                            <p>Image</p>
+                        </div>
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+
+                            <button class="cards-btn">Learn more</button>
+                        </div>
+                    </article>
+                    <article class="cards">
+                        <div class="cardsimage">
+                            <p>Image</p>
+                        </div>
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <button class="cards-btn">Learn more</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <br>
+            <details>
+                <summary>Code behind Example:</summary>
+                <br>
+                <script src="https://gist.github.com/Aranarora/912451d8fbc997af6ef5f08d3c010d2b.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
  &lt;div class=&quot;cardssection&quot;&gt;
  &lt;div class=&quot;allcards&quot;&gt;
    &lt;article class=&quot;cards&quot;&gt;
@@ -279,9 +283,9 @@
  &lt;/div&gt;
 &lt;/div&gt;
   </code>
-  <h3>Html:</h3>
-  </div>
-  <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
   .cardssection {
     width: 100%;
     
@@ -309,57 +313,49 @@
   .cards-btn:hover{ background-color: #191b1a;
     color: #FE9C00;}
   </code>
-  <h3>Css:</h3>
-  </div>
-  </div>
-        </details>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
+            </details>
         </div>
     </main>
 
     <footer>
         <div class="footer-wrapp">
-          <div class="footer-row">
-            <div class="footer-row-first-col-logo">
-              <figure ><a href="index.html">
-                <img
-                  src="Images/e-scooter.svg"
-                  style="width: 80%"
-                  alt="Electric Scooter with branf logo RunRentals"
-                /></a>
-              </figure>
-            </div>
-            <div class="footer-row-second-col-links">
-                <h3>Business Links</h3>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link1</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link2</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link3</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link4</a>
-                </p>
-              </div>
-              <div class="footer-row-second-col-connect">
-                <h3>Connect</h3>
-    
-                <p>
-                  <a href="mailto:aranarora007@gmail.com" target="_blank"
-                    >aranarora007.ca</a
+            <div class="footer-row">
+                <div class="footer-row-first-col-logo">
+                    <figure>
+                        <a href="index.html">
+                            <img src="Images/e-scooter.svg" style="width: 80%" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </figure>
+                </div>
+                <div class="footer-row-second-col-links">
+                    <h3>Business Links</h3>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link1</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link2</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link3</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link4</a>
+                    </p>
+                </div>
+                <div class="footer-row-second-col-connect">
+                    <h3>Connect</h3>
+
+                    <p>
+                        <a href="mailto:aranarora007@gmail.com" target="_blank">aranarora007.ca</a
                   >
                 </p>
                 <p>
                   <a href="tel:+12501234567" target="_blank">Tel: 250 123 4567</a>
-                </p>
-                <p>
-                  <a href="#location" target="_blank">Location</a
+                    </p>
+                    <p>
+                        <a href="#location" target="_blank">Location</a
                   >
                 </p>
                 <a class="linkbtn" href="#contactuspage"

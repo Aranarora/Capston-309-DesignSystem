@@ -1,130 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
-        <link rel="stylesheet" href="stylesheet.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <title>RunRentals-DesignSystem/form</title>
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>RunRentals-DesignSystem/form</title>
+</head>
+
 <body>
-  <header>
-    <nav>
-        <!-- log from iconscout (https://iconscout.com/) 
+    <header>
+        <nav>
+            <!-- log from iconscout (https://iconscout.com/) 
         I modified the colour and add the brand name according to my needs
       as my project requirements.-->
-        <div class="navbar">
-            <div class="topNav">
-                <div id="topNavLogo">
-                <a href="index.html"
-                style="width: 120px"
-                ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-            </div>
-              <div id="ExLink">
-                <a href="home.html">Example</a>
-              </div>
-            
-      
-            </div>
-        <div class="sideNav">
-          <div id="menu">
-            <a href="index.html"
-            id="menuLogo" ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-              <div id="menuExLink">
-            <a href="home.html">Example</a></div>
-            <p>Guidelines</p>
-            <a href="typography.html">Typography</a>
-            <a href="color.html">Color</a>
-            <a href="spacing.html">Spacing</a>
-            <p>Components</p>
-            <a href="card.html">Card</a>
-            <a href="carousel.html">Carousel</a>
-            <a href="form.html" class="active">Form</a>
-            <a href="images.html">Images</a>
-            <a href="listgroup.html">List Group</a>
-            <a href="navigation.html">Navigation</a>
-            <a href="table.html">Table</a>
-            <a href="tooltips.html">Tooltips</a>
-          </div>
-          <!-- create hamburger icon function help taken from w3school
+            <div class="navbar">
+                <div class="topNav">
+                    <div id="topNavLogo">
+                        <a href="index.html" style="width: 120px"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </div>
+                    <div id="ExLink">
+                        <a href="home.html">Example</a>
+                    </div>
+
+
+                </div>
+                <div class="sideNav">
+                    <div id="menu">
+                        <a href="index.html" id="menuLogo"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                        <div id="menuExLink">
+                            <a href="home.html">Example</a></div>
+                        <p>Guidelines</p>
+                        <a href="typography.html">Typography</a>
+                        <a href="color.html">Color</a>
+                        <a href="spacing.html">Spacing</a>
+                        <p>Components</p>
+                        <a href="card.html">Card</a>
+                        <a href="carousel.html">Carousel</a>
+                        <a href="form.html" class="active">Form</a>
+                        <a href="images.html">Images</a>
+                        <a href="listgroup.html">List Group</a>
+                        <a href="navigation.html">Navigation</a>
+                        <a href="table.html">Table</a>
+                        <a href="tooltips.html">Tooltips</a>
+                    </div>
+                    <!-- create hamburger icon function help taken from w3school
           modified it according my needs, its not follow the same way
         1.change the padding style
       2. margins
     rather than function every thing i change as it works for my project -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-          </div>
-              </nav>
-</header>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
-        <h1>Forms</h1>
-        <p>A web form, also known as an HTML form, on a website allows users to input data and then send it to a server for processing. The forms may resemble traditional paper or database forms, and users can input information using text fields, checkboxes, and so on.</p>
-    <p>And essential to guide users in filling out the form and utilizing each form control. Designate which inputs are required and which are optional, specify the data format required, and include any other relevant information.</p>
-<h2>Example</h2>
-<div class="codepenDiv">
-  <div class="nav-form-wrapper">
-    <h2>Required fields with placeholders</h2>
-    <form
-      method="post"
-      action="link-of-the-action">
-       <label for="field-2">
+        <div class="content">
+            <h1>Forms</h1>
+            <p>A web form, also known as an HTML form, on a website allows users to input data and then send it to a server for processing. The forms may resemble traditional paper or database forms, and users can input information using text fields, checkboxes,
+                and so on.</p>
+            <p>And essential to guide users in filling out the form and utilizing each form control. Designate which inputs are required and which are optional, specify the data format required, and include any other relevant information.</p>
+        </div>
+        <h2>Example</h2>
+        <div class="codepenDiv">
+            <div class="nav-form-wrapper">
+                <h2>Required fields with placeholders</h2>
+                <form method="post" action="link-of-the-action">
+                    <label for="field-2">
          Field  One<span class="nav-form-label-required"
           >* (required)</span></label>
-      <input
-        type="text"
-        id="field-1"
-        name="placeholder-1"
-        placeholder="Ex: Placeholder One"
-        required/>
+                    <input type="text" id="field-1" name="placeholder-1" placeholder="Ex: Placeholder One" required/>
 
-      <label for="field-2"
-        >Field Two<span class="nav-form-label-required"
+                    <label for="field-2">Field Two<span class="nav-form-label-required"
           >* (required)</span></label>
-      <input
-        type="text"
-        id="field-2"
-        name="placeholder-2"
-        placeholder="Ex: Placeholder Two"
-        required/>
+                    <input type="text" id="field-2" name="placeholder-2" placeholder="Ex: Placeholder Two" required/>
 
-       <label for="field-3"
-        >Field Two<span class="nav-form-label-optional"
+                    <label for="field-3">Field Two<span class="nav-form-label-optional"
           >* (optional)</span
         ></label>
-      <input
-        type="text"
-        id="field-3"
-        name="placeholder-2"
-        placeholder="Ex: Placeholder Three"/>
-      <div class="nav-form-wrapper-button">
-        <input type="submit" value="Submit" />
-      </div>
-    </form>
-  </div>
-  <br>    
+                    <input type="text" id="field-3" name="placeholder-2" placeholder="Ex: Placeholder Three" />
+                    <div class="nav-form-wrapper-button">
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+            <br>
             <details>
-              <summary>Code behind Example:</summary>
-              <br>
-  <script src="https://gist.github.com/Aranarora/e4b68276bff03963aec8890dac36703d.js"></script>
-  <div class="codzholder">
-      <div class="codz"><code style=" display:none">
+                <summary>Code behind Example:</summary>
+                <br>
+                <script src="https://gist.github.com/Aranarora/e4b68276bff03963aec8890dac36703d.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
      &lt;div class=&quot;form-wrapper&quot;&gt;
      &lt;h2&gt;Requiered fields with placeholders&lt;/h2&gt;
      &lt;form
@@ -165,9 +139,9 @@
      &lt;/form&gt;
    &lt;/div&gt;
       </code>
-      <h3>Html:</h3>
-      </div>
-      <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
       * {
         box-sizing: border-box;
       }
@@ -247,58 +221,50 @@
           }
         }
       </code>
-      <h3>Css:</h3>
-      </div>
-      </div>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
             </details>
-</div>
+        </div>
 
     </main>
 
     <footer>
         <div class="footer-wrapp">
-          <div class="footer-row">
-            <div class="footer-row-first-col-logo">
-              <figure ><a href="index.html">
-                <img
-                  src="Images/e-scooter.svg"
-                  style="width: 80%"
-                  alt="Electric Scooter with branf logo RunRentals"
-                /></a>
-              </figure>
-            </div>
-            <div class="footer-row-second-col-links">
-                <h3>Business Links</h3>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link1</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link2</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link3</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link4</a>
-                </p>
-              </div>
-              <div class="footer-row-second-col-connect">
-                <h3>Connect</h3>
-    
-                <p>
-                  <a href="mailto:aranarora007@gmail.com" target="_blank"
-                    >aranarora007.ca</a
+            <div class="footer-row">
+                <div class="footer-row-first-col-logo">
+                    <figure>
+                        <a href="index.html">
+                            <img src="Images/e-scooter.svg" style="width: 80%" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </figure>
+                </div>
+                <div class="footer-row-second-col-links">
+                    <h3>Business Links</h3>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link1</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link2</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link3</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link4</a>
+                    </p>
+                </div>
+                <div class="footer-row-second-col-connect">
+                    <h3>Connect</h3>
+
+                    <p>
+                        <a href="mailto:aranarora007@gmail.com" target="_blank">aranarora007.ca</a
                   >
                 </p>
                 <p>
                   <a href="tel:+12501234567" target="_blank">Tel: 250 123 4567</a>
-                </p>
-                <p>
-                  <a href="#location" target="_blank">Location</a
+                    </p>
+                    <p>
+                        <a href="#location" target="_blank">Location</a
                   >
                 </p>
                 <a class="linkbtn" href="#contactuspage"

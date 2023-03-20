@@ -1,114 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
-        <link rel="stylesheet" href="stylesheet.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <title>RunRentals-DesignSystem/navigation</title>
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>RunRentals-DesignSystem/navigation</title>
+</head>
+
 <body>
-  <header>
-    <nav>
-        <!-- log from iconscout (https://iconscout.com/) 
+    <header>
+        <nav>
+            <!-- log from iconscout (https://iconscout.com/) 
         I modified the colour and add the brand name according to my needs
       as my project requirements.-->
-        <div class="navbar">
-            <div class="topNav">
-                <div id="topNavLogo">
-                <a href="index.html"
-                style="width: 120px"
-                ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-            </div>
-              <div id="ExLink">
-                <a href="home.html">Example</a>
-              </div>
-            
-      
-            </div>
-        <div class="sideNav">
-          <div id="menu">
-            <a href="index.html"
-            id="menuLogo" ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-              <div id="menuExLink">
-            <a href="home.html">Example</a></div>
-            <p>Guidelines</p>
-            <a href="typography.html">Typography</a>
-            <a href="color.html">Color</a>
-            <a href="spacing.html">Spacing</a>
-            <p>Components</p>
-            <a href="card.html">Card</a>
-            <a href="carousel.html">Carousel</a>
-            <a href="form.html">Form</a>
-            <a href="images.html">Images</a>
-            <a href="listgroup.html">List Group</a>
-            <a href="navigation.html" class="active">Navigation</a>
-            <a href="table.html">Table</a>
-            <a href="tooltips.html">Tooltips</a>
-          </div>
-          <!-- create hamburger icon function help taken from w3school
+            <div class="navbar">
+                <div class="topNav">
+                    <div id="topNavLogo">
+                        <a href="index.html" style="width: 120px"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </div>
+                    <div id="ExLink">
+                        <a href="home.html">Example</a>
+                    </div>
+
+
+                </div>
+                <div class="sideNav">
+                    <div id="menu">
+                        <a href="index.html" id="menuLogo"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                        <div id="menuExLink">
+                            <a href="home.html">Example</a></div>
+                        <p>Guidelines</p>
+                        <a href="typography.html">Typography</a>
+                        <a href="color.html">Color</a>
+                        <a href="spacing.html">Spacing</a>
+                        <p>Components</p>
+                        <a href="card.html">Card</a>
+                        <a href="carousel.html">Carousel</a>
+                        <a href="form.html">Form</a>
+                        <a href="images.html">Images</a>
+                        <a href="listgroup.html">List Group</a>
+                        <a href="navigation.html" class="active">Navigation</a>
+                        <a href="table.html">Table</a>
+                        <a href="tooltips.html">Tooltips</a>
+                    </div>
+                    <!-- create hamburger icon function help taken from w3school
           modified it according my needs, its not follow the same way
         1.change the padding style
       2. margins
     rather than function every thing i change as it works for my project -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <h1>Navigation</h1>
+
+            <p><b>The navigation has a logo, navigation links, and a hamburger menu button.</b> The navigation links will not appear on viewports smaller than 1024px displaying the hamburger button instead. When the hamburger button is clicked, a navigation
+                panel displaying the links will open.
+            </p>
         </div>
-          </div>
-              </nav>
-</header>
-    <main><h1>Navigation</h1>
-        
-        <p><b>The navigation has a logo, navigation links, and a hamburger menu button.</b>
-          The navigation links will not appear on viewports smaller than 1024px displaying the hamburger button instead. When the hamburger button is clicked, a navigation panel displaying the links will open.
-         </p>
         <h2>Hamburger navigation Example</h2>
         <div class="codepenDiv">
-          <h3>This is how it looks on small screens:</h3>
-        <div class="navbar1">
-          <a
-          href="#"
-          style="width: 190px"
-          ><img
-            src="Images/e-scooter.svg"
-            style="width: 120px"
-            alt="electric scooter image"
-        /></a>
+            <h3>This is how it looks on small screens:</h3>
+            <div class="navbar1">
+                <a href="#" style="width: 190px"><img src="Images/e-scooter.svg" style="width: 120px" alt="electric scooter image" /></a>
 
-          <div id="myLinks1">
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-            <a href="#">Page 4</a>
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
-            <i class="fa fa-bars"></i>
-          </a>
-          </div>
-          <br>
-          <details>
-            <summary>Code behind Example:</summary>
+                <div id="myLinks1">
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                    <a href="#">Page 4</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
             <br>
-      
-            <script src="https://gist.github.com/Aranarora/58d7fd607aca13f98fe209843dd43955.js"></script>
-      <div class="codzholder">
-    <div class="codz"><code style=" display:none">
+            <details>
+                <summary>Code behind Example:</summary>
+                <br>
+
+                <script src="https://gist.github.com/Aranarora/58d7fd607aca13f98fe209843dd43955.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
      &lt;!-- add this link in head --&gt;
      &lt;link
            rel=&quot;stylesheet&quot;
@@ -137,9 +122,9 @@
               &lt;/nav&gt;
               &lt;/header&gt;
     </code>
-    <h3>Html:</h3>
-    </div>
-    <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
     header {
       background-color: #191b1a;
       overflow: hidden;
@@ -182,9 +167,9 @@
       color: black;
     }
     </code>
-    <h3>Css:</h3>
-    </div>
-    <div class="codz"><code style=" display:none">
+                        <h3>Css:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
     function myFunction() {
       var x = document.getElementById(&quot;myLinks&quot;);
       if (x.style.display === &quot;block&quot;) {
@@ -194,39 +179,32 @@
       }
     }
   </code>
-   <h3>Java:</h3>  
-  </div>
-    </div>
-          </details>
+                        <h3>Java:</h3>
+                    </div>
+                </div>
+            </details>
         </div>
         <h2>Navigation Example</h2>
         <div class="codepenDiv">
-        <h3>This is how it looks on DeskTop/Big screens:</h3>
-        <div class="navbar2">
-          <a
-          href="#"
-          style="width: 190px"
-          ><img
-            src="Images/e-scooter.svg"
-            style="width: 120px"
-            alt="electric scooter image"
-        /></a>
+            <h3>This is how it looks on DeskTop/Big screens:</h3>
+            <div class="navbar2">
+                <a href="#" style="width: 190px"><img src="Images/e-scooter.svg" style="width: 120px" alt="electric scooter image" /></a>
 
-          <div id="myLinks2">
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-            <a href="#">Page 4</a>
-          </div>
-          </div>
-          <br>
-          <details>
-            <summary>Code behind Example:</summary>
+                <div id="myLinks2">
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                    <a href="#">Page 4</a>
+                </div>
+            </div>
             <br>
-      
-            <script src="https://gist.github.com/Aranarora/51d66b5c70fe00651eaf8327da5f2a15.js"></script>
-      <div class="codzholder">
-    <div class="codz"><code style=" display:none">
+            <details>
+                <summary>Code behind Example:</summary>
+                <br>
+
+                <script src="https://gist.github.com/Aranarora/51d66b5c70fe00651eaf8327da5f2a15.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
     &lt;div class=&quot;navbar&quot;&gt;
           &lt;a
           href=&quot;#&quot;
@@ -245,9 +223,9 @@
           &lt;/div&gt;
           &lt;/div&gt;
     </code>
-    <h3>Html:</h3>
-    </div>
-    <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
     .navbar {
       background-color: #191b1a;
       position: relative;
@@ -273,30 +251,30 @@
       color: black;
     }
     </code>
-    <h3>Css:</h3>
-    </div>
-    </div>
-          </details>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
+            </details>
         </div>
 
-          <h2>Sub menu Example</h2>
-          <div class="codepenDiv">
+        <h2>Sub menu Example</h2>
+        <div class="codepenDiv">
             <div class="nav-dropdown">
-              <button class="nav-btn">Sub menu<i style="margin-left: 10px" class="fa fa-caret-down"></i></button>
-              <div class="nav-btn-link">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
+                <button class="nav-btn">Sub menu<i style="margin-left: 10px" class="fa fa-caret-down"></i></button>
+                <div class="nav-btn-link">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
             </div>
             <br>
             <details>
-              <summary>Code behind Example:</summary>
-              <br>
-        
-              <script src="https://gist.github.com/Aranarora/1e3ad0987124ef96253175d941d91c87.js"></script>
-        <div class="codzholder">
-      <div class="codz"><code style=" display:none">
+                <summary>Code behind Example:</summary>
+                <br>
+
+                <script src="https://gist.github.com/Aranarora/1e3ad0987124ef96253175d941d91c87.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
      &lt;div class=&quot;submenu&quot;&gt;
      &lt;button class=&quot;submenu-btn&quot;&gt;Submenu&lt;i style=&quot;margin-left: 10px&quot; class=&quot;fa fa-caret-down&quot;&gt;&lt;/i&gt;&lt;/button&gt;
      &lt;div class=&quot;submenu-btn-link&quot;&gt;
@@ -306,9 +284,9 @@
      &lt;/div&gt;
      &lt;/div&gt;
       </code>
-      <h3>Html:</h3>
-      </div>
-      <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
       .submenu {
         position: relative;
         display: inline-block;
@@ -350,26 +328,26 @@
         color: #191b1a;
       }
       </code>
-      <h3>Css:</h3>
-      </div>
-      </div>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
             </details>
-          </div>
-          <h2>Buttons Example</h2>
-          <div class="codepenDiv">
+        </div>
+        <h2>Buttons Example</h2>
+        <div class="codepenDiv">
             <button class="nav-button">Button</button>
-            <br>    
+            <br>
             <details>
-              <summary>Code behind Example:</summary>
-              <br>
-              <script src="https://gist.github.com/Aranarora/04d3aabf0cb25a5975c058349766e038.js"></script>
-        <div class="codzholder">
-      <div class="codz"><code style=" display:none">
+                <summary>Code behind Example:</summary>
+                <br>
+                <script src="https://gist.github.com/Aranarora/04d3aabf0cb25a5975c058349766e038.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
      &lt;button&gt;Button&lt;/button&gt;
       </code>
-      <h3>Html:</h3>
-      </div>
-      <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
       button {
         background-color: #FE9C00;
         color: #191b1a;
@@ -390,34 +368,34 @@
         color: #FE9C00;
       }
       </code>
-      <h3>Css:</h3>
-      </div>
-      </div>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
             </details>
-         </div>
-          <h2>Breadcrumbs Example</h2>
-          <div class="codepenDiv">
+        </div>
+        <h2>Breadcrumbs Example</h2>
+        <div class="codepenDiv">
             <div class="nav-breadcrumb">
-              <a href="#">Page 1</a>
-              <a href="#">Page 2</a>
-              <a href="#">Page 3</a>
+                <a href="#">Page 1</a>
+                <a href="#">Page 2</a>
+                <a href="#">Page 3</a>
             </div>
             <br>
             <details>
-              <summary>Code behind Example:</summary>
-              <br>
-              <script src="https://gist.github.com/Aranarora/805df301ca0e4d343a73849da4f1574d.js"></script>
-        <div class="codzholder">
-      <div class="codz"><code style=" display:none">
+                <summary>Code behind Example:</summary>
+                <br>
+                <script src="https://gist.github.com/Aranarora/805df301ca0e4d343a73849da4f1574d.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
      &lt;div class=&quot;breadcrumb&quot;&gt;
      &lt;a href=&quot;#&quot;&gt;Page 1&lt;/a&gt;
      &lt;a href=&quot;#&quot;&gt;Page 2&lt;/a&gt;
      &lt;a href=&quot;#&quot;&gt;Page 3&lt;/a&gt;
    &lt;/div&gt;
       </code>
-      <h3>Html:</h3>
-      </div>
-      <div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
       .breadcrumb {
         padding: 10px 16px;
         list-style: none;
@@ -440,57 +418,49 @@
         color: #FE9C00;
       }
       </code>
-      <h3>Css:</h3>
-      </div>
-      </div>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
             </details>
-          </div>
+        </div>
     </main>
 
     <footer>
         <div class="footer-wrapp">
-          <div class="footer-row">
-            <div class="footer-row-first-col-logo">
-              <figure ><a href="index.html">
-                <img
-                  src="Images/e-scooter.svg"
-                  style="width: 80%"
-                  alt="Electric Scooter with branf logo RunRentals"
-                /></a>
-              </figure>
-            </div>
-            <div class="footer-row-second-col-links">
-                <h3>Business Links</h3>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link1</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link2</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link3</a>
-                </p>
-                <p>
-                  <a href="#Links" target="_blank"
-                  rel="external">Link4</a>
-                </p>
-              </div>
-              <div class="footer-row-second-col-connect">
-                <h3>Connect</h3>
-    
-                <p>
-                  <a href="mailto:aranarora007@gmail.com" target="_blank"
-                    >aranarora007.ca</a
+            <div class="footer-row">
+                <div class="footer-row-first-col-logo">
+                    <figure>
+                        <a href="index.html">
+                            <img src="Images/e-scooter.svg" style="width: 80%" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </figure>
+                </div>
+                <div class="footer-row-second-col-links">
+                    <h3>Business Links</h3>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link1</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link2</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link3</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link4</a>
+                    </p>
+                </div>
+                <div class="footer-row-second-col-connect">
+                    <h3>Connect</h3>
+
+                    <p>
+                        <a href="mailto:aranarora007@gmail.com" target="_blank">aranarora007.ca</a
                   >
                 </p>
                 <p>
                   <a href="tel:+12501234567" target="_blank">Tel: 250 123 4567</a>
-                </p>
-                <p>
-                  <a href="#location" target="_blank">Location</a
+                    </p>
+                    <p>
+                        <a href="#location" target="_blank">Location</a
                   >
                 </p>
                 <a class="linkbtn" href="#contactuspage"
