@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,113 +8,102 @@
     <link rel="icon" href="Images/e-scooter.svg" sizes="100x100" />
     <link rel="stylesheet" href="stylesheet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-<link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>RunRentals-DesignSystem/typography</title>
 </head>
+
 <body>
-  <header>
-    <nav>
-        <!-- log from iconscout (https://iconscout.com/) 
+    <header>
+        <nav>
+            <!-- log from iconscout (https://iconscout.com/) 
         I modified the colour and add the brand name according to my needs
       as my project requirements.-->
-        <div class="navbar">
-            <div class="topNav">
-                <div id="topNavLogo">
-                <a href="index.html"
-                style="width: 120px"
-                ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-            </div>
-              <div id="ExLink">
-                <a href="home.html">Example</a>
-              </div>
-            
-      
-            </div>
-        <div class="sideNav">
-          <div id="menu">
-            <a href="index.html"
-            id="menuLogo" ><img
-                  src="Images/e-scooter.svg"
-                  style="width: 100px"
-                  alt="Electric Scooter with branf logo RunRentals"
-              /></a>
-              <div id="menuExLink">
-            <a href="home.html">Example</a></div>
-            <p>Guidelines</p>
-            <a href="typography.html">Typography</a>
-            <a href="color.html">Color</a>
-            <a href="spacing.html">Spacing</a>
-            <p>Components</p>
-            <a href="card.html">Card</a>
-            <a href="carousel.html">Carousel</a>
-            <a href="form.html">Form</a>
-            <a href="images.html">Images</a>
-            <a href="listgroup.html">List Group</a>
-            <a href="navigation.html">Navigation</a>
-            <a href="table.html" class="active">Table</a>
-            <a href="tooltips.html">Tooltips</a>
-          </div>
-          <!-- create hamburger icon function help taken from w3school
+            <div class="navbar">
+                <div class="topNav">
+                    <div id="topNavLogo">
+                        <a href="index.html" style="width: 120px"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </div>
+                    <div id="ExLink">
+                        <a href="home.html">Example</a>
+                    </div>
+
+
+                </div>
+                <div class="sideNav">
+                    <div id="menu">
+                        <a href="index.html" id="menuLogo"><img src="Images/e-scooter.svg" style="width: 100px" alt="Electric Scooter with branf logo RunRentals" /></a>
+                        <div id="menuExLink">
+                            <a href="home.html">Example</a></div>
+                        <p>Guidelines</p>
+                        <a href="typography.html">Typography</a>
+                        <a href="color.html">Color</a>
+                        <a href="spacing.html">Spacing</a>
+                        <p>Components</p>
+                        <a href="card.html">Card</a>
+                        <a href="carousel.html">Carousel</a>
+                        <a href="form.html">Form</a>
+                        <a href="images.html">Images</a>
+                        <a href="listgroup.html">List Group</a>
+                        <a href="navigation.html">Navigation</a>
+                        <a href="table.html" class="active">Table</a>
+                        <a href="tooltips.html">Tooltips</a>
+                    </div>
+                    <!-- create hamburger icon function help taken from w3school
           modified it according my needs, its not follow the same way
         1.change the padding style
       2. margins
     rather than function every thing i change as it works for my project -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-          </div>
-              </nav>
-</header>
-<main><h1>Table</h1>
-<p>The table can be used for detailed information and describe the information in categories.</p>
-<h2>Example</h2>
-<div class="codepenDiv">
-  <h3>This is how it looks on small screens:</h3>
-  <div class="tablemobile">
-  <table id="info-tablemobile">
-    <caption>Information Table</caption>
-    <tbody>
-      <tr>
-        <th data-label="Name">Name 1</th>
-        <th data-label="Position">Job 1</th>
-        <th data-label="Contact">name1@runrantals.com</th>
-      </tr>
-      <tr>
-        <th scope="row" data-label="Name">Name 2</th>
-        <th data-label="Position">Job 2</th>
-        <th data-label="Contact">name2@runrantals.com</th>
-      </tr>
-      <tr>
-        <th scope="row" data-label="Name">Name 3</th>
-        <th data-label="Position">Job 3</th>
-        <th data-label="Contact">name3@runrantals.com</th>
-      </tr>
-      <tr>
-        <th scope="row" data-label="Name">Name 4</th>
-        <th data-label="Position">Job 4</th>
-        <th data-label="Contact">name4@runrantals.com</th>
-      </tr>
-</tbody>
-  
-</table>
-</div>
-<br>
-    <details>
-      <summary>Code behind Example:</summary>
-      <br>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Table</h1>
+        <p>The table can be used for detailed information and describe the information in categories.</p>
+        <h2>Example</h2>
+        <div class="codepenDiv">
+            <h3>This is how it looks on small screens:</h3>
+            <div class="tablemobile">
+                <table id="info-tablemobile">
+                    <caption>Information Table</caption>
+                    <tbody>
+                        <tr>
+                            <th data-label="Name">Name 1</th>
+                            <th data-label="Position">Job 1</th>
+                            <th data-label="Contact">name1@runrantals.com</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-label="Name">Name 2</th>
+                            <th data-label="Position">Job 2</th>
+                            <th data-label="Contact">name2@runrantals.com</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-label="Name">Name 3</th>
+                            <th data-label="Position">Job 3</th>
+                            <th data-label="Contact">name3@runrantals.com</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-label="Name">Name 4</th>
+                            <th data-label="Position">Job 4</th>
+                            <th data-label="Contact">name4@runrantals.com</th>
+                        </tr>
+                    </tbody>
 
-      <script src="https://gist.github.com/Aranarora/e1387458233dd9b47c1cf68007efefc1.js"></script>
-<div class="codzholder">
-<div class="codz"><code style=" display:none">
+                </table>
+            </div>
+            <br>
+            <details>
+                <summary>Code behind Example:</summary>
+                <br>
+
+                <script src="https://gist.github.com/Aranarora/e1387458233dd9b47c1cf68007efefc1.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
 &lt;table id=&quot;info&quot;&gt;
 &lt;caption&gt;Information Table&lt;/caption&gt;
   &lt;tbody&gt;
@@ -129,7 +119,7 @@
       &lt;/tr&gt;
       &lt;tr&gt;
         &lt;th scope=&quot;row&quot; data-label=&quot;Name&quot;&gt;Name 3&lt;/th&gt;
-        &lt;th data-label=&quot;Position&quot;&gt;Job 3&lt;/td&gt;
+        &lt;th data-label=&quot;Position&quot;&gt;Job 3&lt;/th&gt;
         &lt;th data-label=&quot;Contact&quot;&gt;name3@runrantals.com&lt;/th&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -140,9 +130,9 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 </code>
-<h3>Html:</h3>
-</div>
-<div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
 #info {
   border-collapse: collapse;
   width: 100%;
@@ -186,53 +176,53 @@ color: whitesmoke;}
   }
 
 </code>
-<h3>Css:</h3>
-</div>
-</div>
-    </details>
-  <h3>This is how it looks on DeskTop/Big screens:</h3>
-<div class="tabledesk">
-<table id="info-tabledesk">
-  <caption>Information Table</caption>
-  <thead>
-  <tr>
-    <th>Name</th>
-    <th>Position</th>
-    <th>Contact</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Name 1</td>
-    <td>Job 1</td>
-    <td>name@runrantals.com</td>
-  </tr>
-  <tr>
-    <td>Name 2</td>
-    <td>Job 2</td>
-    <td>name@runrantals.com</td>
-  </tr>
-  <tr>
-    <td>Name 3</td>
-    <td>Job 3</td>
-    <td>name@runrantals.com</td>
-  </tr>
-  <tr>
-    <td>Name 4</td>
-    <td>Job 4</td>
-    <td>name@runrantals.com</td>
-  </tr>
-</tbody>
-</table>
-</div>
-<br>
-    <details>
-      <summary>Code behind Example:</summary>
-      <br>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
+            </details>
+            <h3>This is how it looks on DeskTop/Big screens:</h3>
+            <div class="tabledesk">
+                <table id="info-tabledesk">
+                    <caption>Information Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Contact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Name 1</td>
+                            <td>Job 1</td>
+                            <td>name@runrantals.com</td>
+                        </tr>
+                        <tr>
+                            <td>Name 2</td>
+                            <td>Job 2</td>
+                            <td>name@runrantals.com</td>
+                        </tr>
+                        <tr>
+                            <td>Name 3</td>
+                            <td>Job 3</td>
+                            <td>name@runrantals.com</td>
+                        </tr>
+                        <tr>
+                            <td>Name 4</td>
+                            <td>Job 4</td>
+                            <td>name@runrantals.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <details>
+                <summary>Code behind Example:</summary>
+                <br>
 
-      <script src="https://gist.github.com/Aranarora/7e25c160c4e116cb82b52d069d716595.js"></script>
-<div class="codzholder">
-<div class="codz"><code style=" display:none">
+                <script src="https://gist.github.com/Aranarora/7e25c160c4e116cb82b52d069d716595.js"></script>
+                <div class="codzholder">
+                    <div class="codz"><code style=" display:none">
 &lt;h3&gt;Information Table&lt;/h3&gt;
 
 &lt;table id=&quot;info&quot;&gt;
@@ -264,9 +254,9 @@ color: whitesmoke;}
   
 &lt;/table&gt;
 </code>
-<h3>Html:</h3>
-</div>
-<div class="codz"><code style=" display:none">
+                        <h3>Html:</h3>
+                    </div>
+                    <div class="codz"><code style=" display:none">
 #info {
   border-collapse: collapse;
   width: 100%;
@@ -294,56 +284,48 @@ color: whitesmoke;}
 }
 
 </code>
-<h3>Css:</h3>
-</div>
-</div>
-    </details>
-</div>
-</main>
-<footer>
-    <div class="footer-wrapp">
-      <div class="footer-row">
-        <div class="footer-row-first-col-logo">
-          <figure ><a href="index.html">
-            <img
-              src="Images/e-scooter.svg"
-              style="width: 80%"
-              alt="Electric Scooter with branf logo RunRentals"
-            /></a>
-          </figure>
+                        <h3>Css:</h3>
+                    </div>
+                </div>
+            </details>
         </div>
-        <div class="footer-row-second-col-links">
-            <h3>Business Links</h3>
-            <p>
-              <a href="#Links" target="_blank"
-              rel="external">Link1</a>
-            </p>
-            <p>
-              <a href="#Links" target="_blank"
-              rel="external">Link2</a>
-            </p>
-            <p>
-              <a href="#Links" target="_blank"
-              rel="external">Link3</a>
-            </p>
-            <p>
-              <a href="#Links" target="_blank"
-              rel="external">Link4</a>
-            </p>
-          </div>
-          <div class="footer-row-second-col-connect">
-            <h3>Connect</h3>
+    </main>
+    <footer>
+        <div class="footer-wrapp">
+            <div class="footer-row">
+                <div class="footer-row-first-col-logo">
+                    <figure>
+                        <a href="index.html">
+                            <img src="Images/e-scooter.svg" style="width: 80%" alt="Electric Scooter with branf logo RunRentals" /></a>
+                    </figure>
+                </div>
+                <div class="footer-row-second-col-links">
+                    <h3>Business Links</h3>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link1</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link2</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link3</a>
+                    </p>
+                    <p>
+                        <a href="#Links" target="_blank" rel="external">Link4</a>
+                    </p>
+                </div>
+                <div class="footer-row-second-col-connect">
+                    <h3>Connect</h3>
 
-            <p>
-              <a href="mailto:aranarora007@gmail.com" target="_blank"
-                >aranarora007.ca</a
+                    <p>
+                        <a href="mailto:aranarora007@gmail.com" target="_blank">aranarora007.ca</a
               >
             </p>
             <p>
               <a href="tel:+12501234567" target="_blank">Tel: 250 123 4567</a>
-            </p>
-            <p>
-              <a href="#location" target="_blank">Location</a
+                    </p>
+                    <p>
+                        <a href="#location" target="_blank">Location</a
               >
             </p>
             <a class="linkbtn" href="#contactuspage"

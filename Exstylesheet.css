@@ -309,38 +309,54 @@ footer h3 {
 .table {
     padding: 16px 0px;
     margin: 24px 0px;
-    overflow-y: scroll;
 }
 
 #info {
-    width: 100%;
+    display: none;
+}
+
+#info1 {
     border-collapse: collapse;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
-#info td,
-#info th {
+#info1 th {
     border: 1px solid #191b1a;
     padding: 8px;
     font-size: 16px;
 }
 
-#info tr:nth-child(even) {
+#info1 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-#info tr:hover {
+#info1 tr:hover {
     background-color: #191b1a;
     color: whitesmoke;
 }
 
-#info th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #FE9C00;
-    color: whitesmoke;
+#info1 {
+    border: 0;
+}
+
+#info1 tr {
+    display: block;
+    margin-bottom: 12px;
+}
+
+#info1 th {
+    display: block;
+    text-align: right;
+}
+
+#info1 th::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    color: #FE9C00;
+    text-transform: uppercase;
 }
 
 
@@ -566,6 +582,38 @@ footer h3 {
         flex-grow: 2;
     }
     /* about page */
+    #info {
+        display: table;
+    }
+    #info {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    #info td,
+    #info th {
+        border: 1px solid #191b1a;
+        padding: 8px;
+        font-size: 16px;
+    }
+    #info tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    #info tr:hover {
+        background-color: #191b1a;
+        color: whitesmoke;
+    }
+    #info th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #FE9C00;
+        color: whitesmoke;
+    }
+    #info1 {
+        display: none;
+    }
     .about-content-pessage1 {
         display: flex;
         flex-direction: row;
