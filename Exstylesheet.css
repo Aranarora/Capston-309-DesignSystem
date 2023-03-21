@@ -201,11 +201,13 @@ li {
 }
 
 .sidebyside-div2 img {
-    width: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .sidebyside-div1 img {
-    width: 300px;
+    width: 100%;
+    height: auto;
     align-content: center;
 }
 
