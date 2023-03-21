@@ -130,6 +130,7 @@ header {
     padding: 9px;
     display: block;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .navbar #menu,
