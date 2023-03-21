@@ -188,14 +188,13 @@ li {
     margin: 24px 0px;
 }
 
-.sidebyside-div2-home-vision-video {
-    position: relative;
-    padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
+.sidebyside-div2-order {
     order: 0;
-    margin: 4% 0%;
+    margin: auto;
 }
 
-.sidebyside-div1-home-vision-video {
+.sidebyside-div1-order {
+    position: relative;
     order: 1;
     margin: auto;
 }
@@ -552,11 +551,20 @@ footer h3 {
         margin-right: 24px;
         margin: auto 24px auto 0px;
     }
+    .sidebyside-div2-order {
+        order: 0;
+        margin-left: 24px;
+        margin: auto 24px auto 0px;
+    }
+    .sidebyside-div1-order {
+        order: 1;
+        position: relative;
+        width: 100%;
+    }
     .sidebyside-div2 {
         order: 1;
         position: relative;
         width: 100%;
-        margin: 0px 0px 100px 0px;
     }
     .sidebyside-div2 img {
         width: 560px;
