@@ -176,6 +176,10 @@ li {
     border: 5px solid #FE9C00;
 }
 
+.slideshow-slides img[Attributes] {
+    aspect-ratio: auto 640 / 360;
+}
+
 .slideshow-slides>.slideshow-slides {
     position: absolute;
     transition: all 500ms ease-in-out;
