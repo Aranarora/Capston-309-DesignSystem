@@ -189,13 +189,13 @@ li {
 }
 
 .sidebyside-div2-order {
-    order: 0;
+    order: 1;
     margin: auto;
 }
 
 .sidebyside-div1-order {
     position: relative;
-    order: 1;
+    order: 0;
     margin: auto;
 }
 
@@ -208,6 +208,11 @@ li {
     position: relative;
     order: 1;
     margin: auto;
+}
+
+.sidebyside-div1-order img {
+    width: 100%;
+    height: auto;
 }
 
 .sidebyside-div2 img {
@@ -549,24 +554,22 @@ footer h3 {
     .sidebyside-div1 {
         order: 0;
         margin-right: 24px;
-        margin: auto 24px auto 0px;
     }
     .sidebyside-div2-order {
-        order: 0;
-        margin-left: 24px;
-        margin: auto 24px auto 0px;
-    }
-    .sidebyside-div1-order {
         order: 1;
         position: relative;
         width: 100%;
+    }
+    .sidebyside-div1-order {
+        order: 1;
+        margin-left: 24px;
     }
     .sidebyside-div2 {
         order: 1;
         position: relative;
         width: 100%;
     }
-    .sidebyside-div2 img {
+    .sidebyside-div1-order img {
         width: 560px;
     }
     .sidebyside-div1 img {

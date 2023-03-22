@@ -29,10 +29,18 @@
         </nav>
         <div>
             <div class="slideshow-wrapper">
-
-                <img class="slideshow-slides" width="320" height="180" alt="A electric scooter parked in the open parking area" style="width: 100%; height: auto;" srcset="Images/c1-small.avif 100w, Images/c1.avif 1200w" />
-                <img class="slideshow-slides" width="320" height="180" alt="Girls riding the electric scooters" style="width: 100%; height: auto;" srcset="Images/c2-small.avif 100w, Images/c2.avif 1200w" />
-                <img class="slideshow-slides" width="320" height="180" alt="Green and orange electric scooters on parking" style="width: 100%; height: auto;" srcset="Images/c3-small.avif 100w, Images/c3.avif 1200w" />
+                <picture class="slideshow-slides">
+                    <source srcset="Images/c1.avif 1200w" media="(min-width: 1000px)">
+                    <img src="Images/c1-small.avif" width="320" height="180" class="img-responsive" style="width: 100%; height: auto;" loading="eager" alt="A electric scooter parked in the open parking area">
+                </picture>
+                <picture class="slideshow-slides">
+                    <source srcset="Images/c2.avif 1200w" media="(min-width: 1000px)">
+                    <img src="Images/c2-small.avif" width="320" height="180" class="img-responsive" style="width: 100%; height: auto;" loading="eager" alt="Girls riding the electric scooters">
+                </picture>
+                <picture class="slideshow-slides">
+                    <source srcset="Images/c3.avif 1200w" media="(min-width: 1000px)">
+                    <img src="Images/c3-small.avif" width="320" height="180" class="img-responsive" style="width: 100%; height: auto;" loading="eager" alt="Green and orange electric scooters on parking">
+                </picture>
             </div>
         </div>
     </header>
