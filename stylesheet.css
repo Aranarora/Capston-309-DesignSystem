@@ -117,11 +117,12 @@ button:active {
 
 /* Heading of all pages */
 
-.skip-to-content-link {
+
+/* .skip-to-content-link {
     left: 50%;
     position: absolute;
     transform: translateY(-100%);
-}
+} */
 
 .skip-to-content-link {
     background: #FE9C00;
