@@ -10,17 +10,10 @@ html {
     outline: 2px solid #FE9C00;
 }
 
-
-/* .skip-to-content-link {
-    left: 50%;
-    position: absolute;
-    transform: translateY(-100%);
-} */
-
 .skip-to-content-link {
     background: #FE9C00;
     height: 30px;
-    left: 45%;
+    text-align: center;
     padding: 8px;
     position: absolute;
     transform: translateY(-100%);
