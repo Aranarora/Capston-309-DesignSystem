@@ -50,13 +50,3 @@ function carousel() {
     x[myIndex - 1].style.display = "block";
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
-
-// hamburger menu function
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
