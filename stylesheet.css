@@ -118,12 +118,28 @@ button:active {
 /* Heading of all pages */
 
 .skip-to-content-link {
+    left: 50%;
     position: absolute;
     transform: translateY(-100%);
 }
 
+.skip-to-content-link {
+    background: #FE9C00;
+    height: 30px;
+    left: 45%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.1s;
+}
+
 .skip-to-content-link:focus {
     transform: translateY(0%);
+}
+
+.skip-to-content-link {
+    color: #191b1a;
+    text-decoration: none;
 }
 
 header {
