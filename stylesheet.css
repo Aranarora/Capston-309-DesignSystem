@@ -117,6 +117,15 @@ button:active {
 
 /* Heading of all pages */
 
+.skip-to-content-link {
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.skip-to-content-link:focus {
+    transform: translateY(0%);
+}
+
 header {
     background-color: #191b1a;
     overflow: hidden;
