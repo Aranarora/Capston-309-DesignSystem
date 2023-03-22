@@ -420,6 +420,10 @@ footer h3 {
     flex-direction: column;
 }
 
+.form-wrapper input:focus-visible {
+    outline: 2px dashed #FE9C00;
+}
+
 .form-wrapper input,
 .form-wrapper select,
 .form-wrapper textarea {

@@ -594,6 +594,10 @@ th {
     flex-direction: column;
 }
 
+.nav-form-wrapper input:focus-visible {
+    outline: 3px dashed #FE9C00;
+}
+
 .nav-form-wrapper input,
 .form-wrapper select,
 .form-wrapper textarea {
