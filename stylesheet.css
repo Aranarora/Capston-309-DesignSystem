@@ -110,10 +110,6 @@ button:active {
     color: #FE9C00;
 }
 
-.content {
-    width: 500px;
-}
-
 
 /* Heading of all pages */
 
@@ -150,7 +146,7 @@ header {
 }
 
 .navbar a {
-    padding: 15px;
+    padding: 12px;
     display: block;
     color: whitesmoke;
     text-decoration: none;
@@ -955,6 +951,9 @@ footer h3 {
 }
 
 @media only screen and (min-width: 1024px) {
+    .content {
+        width: 500px;
+    }
     .topNav {
         position: relative;
         display: flex;

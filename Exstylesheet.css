@@ -10,25 +10,6 @@ html {
     outline: 2px solid #FE9C00;
 }
 
-.skip-to-content-link {
-    background: #FE9C00;
-    height: 30px;
-    text-align: center;
-    padding: 8px;
-    position: absolute;
-    transform: translateY(-100%);
-    transition: transform 0.1s;
-}
-
-.skip-to-content-link:focus {
-    transform: translateY(0%);
-}
-
-.skip-to-content-link {
-    color: #191b1a;
-    text-decoration: none;
-}
-
 header,
 main,
 footer {
@@ -111,7 +92,7 @@ li {
 }
 
 .navbar a {
-    padding: 15px;
+    padding: 12px;
     color: whitesmoke;
     text-decoration: none;
     font-size: 1.6rem;
@@ -555,6 +536,25 @@ footer h3 {
 }
 
 @media only screen and (min-width: 1024px) {
+    #link {
+        display: flex;
+    }
+    .skip-to-content-link {
+        margin: 0px 12px;
+        position: absolute;
+        transform: translateY(-100%);
+    }
+    .skip-to-content-link {
+        background: #FE9C00;
+        height: 30px;
+        padding: 8px;
+        position: absolute;
+        transform: translateY(-100%);
+        transition: transform 0.1s;
+    }
+    .skip-to-content-link:focus {
+        transform: translateY(0%);
+    }
     .content {
         width: 500px;
     }
