@@ -215,6 +215,14 @@ header {
     align-content: center;
 }
 
+.homeCards-card li {
+    padding: 15px 0px;
+}
+
+.homeCards-card li a {
+    padding: 15px 0px;
+}
+
 
 /* color page */
 
