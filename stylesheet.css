@@ -6,6 +6,10 @@ html {
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: 2px solid #FE9C00;
+}
+
 header,
 main,
 footer {
@@ -584,11 +588,6 @@ th {
 /* ===============
      STRUCTURE
      =============== */
-
-.nav-form-wrapper-button {
-    display: flex;
-    justify-content: space-between;
-}
 
 .nav-form-wrapper input {
     display: flex;
