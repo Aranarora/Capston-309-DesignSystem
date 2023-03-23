@@ -10,6 +10,10 @@ html {
     outline: 2px solid #FE9C00;
 }
 
+#link {
+    display: none;
+}
+
 header,
 main,
 footer {
