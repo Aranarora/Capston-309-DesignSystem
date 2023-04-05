@@ -184,6 +184,16 @@ li {
     border: 5px solid #FE9C00;
 }
 
+.slideshow-slides img {
+    display: block;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .slideshow-slides>.slideshow-slides {
     position: absolute;
     transition: all 500ms ease-in-out;
